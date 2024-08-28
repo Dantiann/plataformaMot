@@ -1,0 +1,496 @@
+﻿@model List<plataformaMotVer6.Models.TblActividadesViewModel>
+@using plataformaMotVer6.Models
+
+@{
+    ViewBag.Title = "Activities";
+    Layout = "~/Views/Shared/_Layout - Bienestar.cshtml";
+}
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Actividades</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    @Styles.Render("~/Content/css/activities.css")
+
+
+
+
+    <style>
+
+
+        td.action-column .cont-botones {
+            text-align: center;
+            padding: 0 5px;
+        }
+
+        th {
+            text-align: center;
+        }
+
+        /*.my-modal {
+                width: 1000px;
+                height: 90vh;
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                justify-content: center;
+                align-items: center;*/
+        /* background: #332640a1;*/
+        /*top: 30px;
+                left: 100px;
+                display: none;
+
+            }
+
+            .my-modal-content {
+                border-radius: 28px;
+                background-color: #fefefe;
+                padding: 20px;
+                border: 10px solid rgba(51, 38, 64, 0.35);
+                width: 100%;
+                max-width: 1100px;
+                position: relative;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+
+        /*     }*/
+
+        .my-modal {
+            width: 1000px;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            position: fixed; /* Cambia a "fixed" para centrarlo en la pantalla */
+            justify-content: center;
+            align-items: center;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Añade esta línea para desplazar el modal hacia atrás la mitad de su ancho y alto */
+            display: none;
+        }
+
+        .my-modal-content {
+            border-radius: 28px;
+            background-color: #fefefe;
+            padding: 20px;
+            border: 10px solid rgba(51, 38, 64, 0.35);
+            width: 100%;
+            max-width: 1100px;
+            position: relative;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+
+
+        #closeModal {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: transparent;
+            border: transparent;
+            font-size: 20px;
+            color: #aaaaaa;
+            float: right;
+            font-weight: bold;
+        }
+
+
+
+        /*    .filter-form-container {
+                text-align: center;
+                margin-bottom: 10px;
+            }*/
+
+
+        .filter-form-container .row {
+            display: flex;
+            justify-content: center;
+        }
+
+        .filter-form-container .col-md-4 {
+            margin-bottom: 10px; /* Agrega un margen inferior para separar las filas verticalmente */
+        }
+
+        .filter-form-container input[type="text"],
+        .filter-form-container input[type="number"],
+        .filter-form-container select,
+        .filter-form-container textarea {
+            width: 100%; /* Establece el ancho al 100% del contenedor */
+            height: 40px; /* Establece un alto fijo */
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-right: 10px;
+            font-size: 14px; /* Establece el tamaño de la letra */
+        }
+
+        .filter-form-container select {
+            appearance: none; /* Oculta el selector predeterminado del navegador */
+            background-image: url('data:image/svg+xml;utf8,<svg fill="%23333333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>'); /* Usa una imagen SVG como icono desplegable */
+            background-repeat: no-repeat;
+            background-position: right 8px center;
+        }
+
+        .filter-form-container textarea {
+            resize: vertical; /* Permite redimensionar verticalmente el textarea */
+        }
+
+
+
+        .cont-insertActivity h3,
+        .cont-insertActivity a {
+            display: inline-block;
+            vertical-align: middle; /*Esto alineará verticalmente la imagen y el texto */
+        }
+
+        /*.cont-insertActivity {
+                display: flex;
+                align-items: center;*/ /* Esto alineará verticalmente los elementos hijos */
+        /*}*/
+
+
+    </style>
+</head>
+
+<main aria-label="title">
+    <div class="container">
+        <section class="col-md-12">
+            <h2>Lista de Actividades</h2>
+            <br />
+
+            @Html.Partial("_FilterForm", new FilterActivitiesViewModel())
+
+            @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+            {
+                <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+            }
+
+            @*@Html.Partial("_ActivityForm", new TblActividadesViewModel())*@
+
+
+            <div class="cont-insertActivity">
+                <h3>Agregar una actividad </h3>
+                <a href="#" onclick="openInsertModal()">
+                    <img src="~/Pictures/disco.png" alt="Insertar Registro" width="35" height="35" title="Agregar una actividad" />
+                </a>
+            </div>
+            <br />  <br />
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Nº de la Actividad</th>
+                        <th>Actividad</th>
+                        <th>Categoría</th>
+                        <th>Horas Asignadas</th>
+                        <th>Descripción</th>
+                        <th>Fecha de Inicio</th>
+                        <th>Fecha de Cierre</th>
+                        <th>Responsable</th>
+                        <th>Cargo</th>
+                        <th>Opciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        foreach (var activity in Model)
+                        {
+                            <tr>
+                                <td>@activity.IdActividad</td>
+                                <td>@activity.NombreActividad</td>
+                                <td>@activity.Categoria</td>
+                                <td>@activity.HorasAsignadas</td>
+                                <td>@activity.Descripcion</td>
+                                <td>@(!string.IsNullOrEmpty(activity.FechaInicio) ? DateTime.Parse(activity.FechaInicio).ToString("dd/MM/yyyy") : "")</td>
+                                <td>@(!string.IsNullOrEmpty(activity.FechaFinalizacion) ? DateTime.Parse(activity.FechaFinalizacion).ToString("dd/MM/yyyy") : "")</td>
+                                <td>@activity.Responsable</td>
+                                <td>@activity.Cargo</td>
+
+
+                                <td class="action-column">
+                                    <div class="cont-botones">
+                                        <a href="#" onclick="openEditModal(@activity.IdActividad)" style="border: none; text-decoration: none;">
+                                            <img src="~/Pictures/pen2.png" alt="Editar Registro" width="23" height="23" title="Editar la actividad" style="border: none;" />
+                                        </a>&nbsp;
+
+                                        <button type="button" onclick="deleteActivity(@activity.IdActividad)" name="Boton" value="Eliminar" style="border: none; background-color: transparent; padding: 0;">
+                                            <img src="~/Pictures/trash1.png" alt="Eliminar Registro" width="23" height="23" title="Eliminar la actividad" style="border: none;" />
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="9">No hay actividades disponibles.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+
+            @*Modal para insertar actividades*@
+            <div id="insertModal" class="my-modal">
+                <div class="my-modal-content">
+                    <h2>Insertar Actividad</h2>
+                    <br />  <br />
+                    <button id="closeModal" onclick="closeInsertModal()">X</button>
+
+                    <div id="successMessage" class="alert alert-success" style="display: none;"></div>
+                    <!-- Se incluye la vista parcial _ActivityInsertForm -->
+                    @Html.Partial("_ActivityInsertForm", new TblActividadesViewModel())
+                </div>
+            </div>
+
+            @*Modal para editar actividades*@
+            <div id="editModal" class="my-modal" style="display: none">
+                <div class="my-modal-content">
+                    <h2>Editar Actividad</h2>
+                    <br />  <br />
+                    <button id="closeModal" onclick="closeEditModal()">X</button>
+                    <!-- Se incluye la vista parcial _ActivityEditForm  -->
+                    @Html.Partial("_ActivityEditForm", new TblActividadesViewModel())
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+@section Scripts
+{
+    <!-- jQuery y jQuery UI -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- Estilo para jQuery UI -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/redmond/jquery-ui.css">
+
+    <!-- Archivo de localización en español -->
+    <script src="https://code.jquery.com/ui/1.12.1/i18n/datepicker-es.min.js"></script>
+
+    <!-- Scripts adicionales para validación -->
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            initializeDatepicker("#FechaInicio_Insert, #FechaFinalizacion_Insert");
+            initializeDatepicker("#FechaInicio_Edit, #FechaFinalizacion_Edit");
+
+            // Manejo del envío del formulario de inserción
+            $("#insertForm").on("submit", function (event) {
+                event.preventDefault(); // Evitar el envío normal del formulario
+                insertActivity(); // Llamar a la función de inserción
+            });
+        });
+
+        /**** FUNCIONES DEL MODAL InsertModal (INSERTAR O AÑADIR ACTIVIDAD) ****/
+
+        // Mostrar el modal de insertar
+        function openInsertModal() {
+            document.getElementById("insertModal").style.display = "block";
+            cleanInsertForm();
+        }
+
+        // Cerrar el modal cuando se haga clic en el botón de cerrar (x)
+        function closeInsertModal() {
+            document.getElementById("insertModal").style.display = "none";
+        }
+
+        // Función para limpiar el formulario al abrir el modal de inserción (Agregar)
+        function cleanInsertForm() {
+            $("#IdActividad_Insert").val("");
+            $("#NombreActividad_Insert").val("");
+            $("#Categoria_Insert").val("");
+            $("#HorasAsignadas_Insert").val("");
+            $("#Descripcion_Insert").val("");
+            $("#FechaInicio_Insert").val("");
+            $("#FechaFinalizacion_Insert").val("");
+            $("#TipoDocumentoBienestar_Insert").val("");
+            $("#NumeroDocumentoBienestar_Insert").val("");
+        }
+
+        // Función para insertar una nueva actividad
+        function insertActivity() {
+            // Validar el formulario
+            if ($("#insertForm").valid()) { // Asumiendo que tienes un ID para el formulario
+                const activityData = {
+                    NombreActividad: $("#NombreActividad_Insert").val(),
+                    Categoria: $("#Categoria_Insert").val(),
+                    HorasAsignadas: $("#HorasAsignadas_Insert").val(),
+                    Descripcion: $("#Descripcion_Insert").val(),
+                    FechaInicio: $("#FechaInicio_Insert").val(),
+                    FechaFinalizacion: $("#FechaFinalizacion_Insert").val(),
+                    TipoDocumentoBienestar: $("#TipoDocumentoBienestar_Insert").val(),
+                    NumeroDocumentoBienestar: $("#NumeroDocumentoBienestar_Insert").val()
+                };
+
+
+                $.ajax({
+                    url: "/ActivitiesBienestar/Activities", // Cambia esto por tu URL de inserción
+                    type: "POST",
+                    data: activityData,
+                    success: function () {
+                        $("#successMessage").text("Actividad insertada con éxito").show();
+                        closeInsertModal();
+                        cleanInsertForm(); // Limpia el formulario después de una inserción exitosa
+                        // Aquí podrías recargar la lista de actividades o actualizar la vista
+                    },
+                    error: function (xhr) {
+                        console.error("Error al insertar la actividad: ", xhr.responseText);
+                        alert("Ocurrió un error al insertar la actividad. Por favor, inténtalo de nuevo.");
+                    }
+                });
+            } else {
+                alert("Por favor, completa todos los campos requeridos.");
+            }
+        }
+
+        /**** FUNCIONES DEL MODAL EditModal (EDITAR O MODIFICAR ACTIVIDAD) ****/
+
+        // Mostrar el modal de editar
+        function openEditModal(idActividad) {
+            document.getElementById("editModal").style.display = "block";
+
+            // Realizar la solicitud AJAX al servidor para obtener los datos de la actividad
+            $.ajax({
+                url: "/ActivitiesBienestar/GetActivityData",
+                type: "GET",
+                data: { idActividad: idActividad },
+                success: function (data) {
+                    if (data !== null) {
+                        // Actualizar los campos del formulario con los datos obtenidos
+                        $("#IdActividad").val(data.IdActividad);
+                        $("#NombreActividad").val(data.NombreActividad);
+                        $("#Categoria").val(data.Categoria);
+                        $("#HorasAsignadas").val(data.HorasAsignadas);
+                        $("#FechaInicio_Edit").val(data.FechaInicio);
+                        $("#FechaFinalizacion_Edit").val(data.FechaFinalizacion);
+                        $("#Descripcion").val(data.Descripcion);
+                        $("#TipoDocumentoBienestar").val(data.TipoDocumentoBienestar);
+                        $("#NumeroDocumentoBienestar").val(data.NumeroDocumentoBienestar);
+                    }
+                },
+                error: function () {
+                    console.error("Error al obtener los datos de la actividad");
+                }
+            });
+        }
+
+        // Cerrar el modal cuando se haga clic en el botón de cerrar (x)
+        function closeEditModal() {
+            document.getElementById("editModal").style.display = "none";
+        }
+
+        // Función para limpiar el formulario al abrir el modal de editar (Actualizar)
+        function cleanEditForm() {
+            // Limpiar los valores de los campos del formulario
+            document.getElementById("NombreActividad").value = "";
+            document.getElementById("Categoria").value = "";
+            document.getElementById("HorasAsignadas").value = "";
+            document.getElementById("Descripcion").value = "";
+            document.getElementById("FechaInicio_Edit").value = "";
+            document.getElementById("FechaFinalizacion_Edit").value = "";
+            document.getElementById("TipoDocumentoBienestar").value = "";
+            document.getElementById("NumeroDocumentoBienestar").value = "";
+        }
+
+        /**** FUNCIÓN DE deleteActivity (ELIMINAR ACTIVIDAD) ****/
+        function deleteActivity(idActividad) {
+            if (confirm("¿Estás seguro de que deseas eliminar esta actividad?")) {
+                $.ajax({
+                    url: "/ActivitiesBienestar/DeleteActivity",// Acción que procesa la eliminación
+                    type: "POST",
+                    data: { idActividad: idActividad },
+                    success: function () {
+                        location.reload();
+                    },
+                    error: function () {
+                        console.error("Error al eliminar la actividad");
+                    }
+                });
+            }
+        }
+
+
+        /**** CERRAR EL MODAL CUANDO SE HAGA CLIC FUERA DEL CONTENIDO DEL MODAL ****/
+
+        window.onclick = function (event) {
+            if (event.target == document.getElementById("editModal") || event.target == document.getElementById("insertModal")) {
+                document.getElementById("editModal").style.display = "none";
+                document.getElementById("insertModal").style.display = "none";
+            }
+        };
+
+
+        /****   FORMATO DEL CALENDARIO DATEPICKER*****/
+        $(function () {
+            // Configura el Datepicker para usar la localización en español
+            $.datepicker.setDefaults($.datepicker.regional["es"]);
+
+            // Inicializa el Datepicker para Fecha de Inicio
+            $("#FechaInicio_Insert, #FechaInicio_Edit, #FechaInicio_Filter").datepicker({
+                dateFormat: "dd-mm-yy",
+                changeMonth: true,
+                changeYear: true,
+                regional: "es",
+                onSelect: function (dateText) {
+                    // Cuando se selecciona una fecha en el Datepicker de Fecha de Inicio
+                    var fechaInicio = $(this).datepicker("getDate");
+                    // Actualiza el Datepicker de Fecha de Finalización
+                    $("#FechaFinalizacion_Insert, #FechaFinalizacion_Edit, #FechaFinalizacion_Filter").datepicker("option", "minDate", fechaInicio);
+                }
+            });
+
+            // Inicializa el Datepicker para Fecha de Finalización
+            $("#FechaFinalizacion_Insert, #FechaFinalizacion_Edit, #FechaFinalizacion_Filter").datepicker({
+                dateFormat: "dd-mm-yy",
+                changeMonth: true,
+                changeYear: true,
+                regional: "es"
+            });
+
+
+
+            $("form").submit(function (event) {
+                var form = $(this);
+                var isValid = true;
+
+                // Verificar si todos los campos requeridos están llenos
+                form.find("[required]").each(function () {
+                    if ($(this).val() === "") {
+                        isValid = false;
+                        return false; // Salir del bucle si se encuentra un campo vacío
+                    }
+                });
+
+                if (isValid) {
+                    // Solo convertir los campos de fecha si todos los campos requeridos están llenos
+                    form.find("input.datepicker[type=text]").each(function () {
+                        var fecha = $(this).datepicker("getDate");
+                        if (fecha) {
+                            $(this).val($.datepicker.formatDate("yy-mm-dd", fecha));
+                        }
+                    });
+                } else {
+                    event.preventDefault(); // Detener el envío si hay campos vacíos
+                }
+            });
+        });
+
+
+        function cleanFilterForm() {
+            document.getElementById('Categoria_Filter').value = '';
+            document.getElementById('FechaInicio_Filter').value = '';
+            document.getElementById('FechaFinalizacion_Filter').value = '';
+        }
+
+
+    </script>
+}

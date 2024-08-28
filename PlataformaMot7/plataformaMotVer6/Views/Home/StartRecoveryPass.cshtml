@@ -1,0 +1,24 @@
+﻿@model plataformaMotVer6.Models.ViewModel.RecoveryViewModel
+
+@{
+    ViewBag.Title = "StartRecoveryPass";
+    Layout = null;
+}
+
+<div class="row">
+    <div class="col-md-6 offset-6">
+        <div class="form-style">
+            <form action="@Url.Content("~/Home/StartRecoveryPass")" method="post">
+                <label>Escribe tu correo electrónico</label>
+                @Html.TextBoxFor(d=>d.Correo, null, new {@class="form-control"})
+                @Html.ValidationMessageFor(d=>d.Correo, null, new { style="color:red"})
+
+                <br/>
+                <div class="text-right">
+                    <button class="btn btn-primary">Recuperar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>

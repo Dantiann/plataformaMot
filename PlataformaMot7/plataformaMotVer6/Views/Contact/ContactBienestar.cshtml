@@ -1,0 +1,38 @@
+﻿@model List<plataformaMotVer6.Models.TblBienestar>
+
+@{
+    ViewBag.Title = "ContactBienestar";
+    Layout = "~/Views/Shared/_Layout - Bienestar.cshtml";
+}
+
+<h2>Contactos del área de Bienestar al Aprendiz</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <td><strong>Nombre</strong></td>
+            <td><strong>Cargo</strong></td>
+            <td><strong>Correo electrónico</strong></td>
+        </tr>
+    </thead>
+
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var contact in Model)
+            {
+                <tr>
+                    <td>@contact.NombreCompleto </td>
+                    <td>@contact.Cargo</td>
+                    <td>@contact.Correo</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="9">No hay información disponible.</td>
+            </tr>
+        }
+    </tbody>
+</table>

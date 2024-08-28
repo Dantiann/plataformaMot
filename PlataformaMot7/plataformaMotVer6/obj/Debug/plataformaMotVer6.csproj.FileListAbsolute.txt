@@ -1,0 +1,711 @@
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\plataformaMotVer6.dll.config
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\plataformaMotVer6.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\plataformaMotVer6.pdb
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csc.exe
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csc.exe.config
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csc.rsp
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csi.exe
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csi.exe.config
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csi.rsp
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.AppContext.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Collections.Immutable.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Console.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Globalization.Calendars.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.IO.Compression.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.IO.FileSystem.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Net.Http.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Net.Sockets.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Reflection.Metadata.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.ValueTuple.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Xml.XPath.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\vbc.exe
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\vbc.exe.config
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\vbc.rsp
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\VBCSCompiler.exe
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\roslyn\VBCSCompiler.exe.config
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\Antlr3.Runtime.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\Microsoft.Web.Infrastructure.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\Newtonsoft.Json.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Helpers.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Mvc.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Optimization.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Razor.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.Deployment.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.Razor.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\WebGrease.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Helpers.xml
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Mvc.xml
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Optimization.xml
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Razor.xml
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.xml
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.Deployment.xml
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.Razor.xml
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\Newtonsoft.Json.xml
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\Antlr3.Runtime.pdb
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\obj\Debug\plataformaMotVer6.csproj.AssemblyReference.cache
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\obj\Debug\plataformaMotVer6.csproj.CoreCompileInputs.cache
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\obj\Debug\plataformaMotVer6.csproj.CopyComplete
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\obj\Debug\plataformaMotVer6.dll
+F:\Documents\GitHub\plataformaMotVer6\plataformaMotVer6\obj\Debug\plataformaMotVer6.pdb
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\plataformaMotVer6.dll.config
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\plataformaMotVer6.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\plataformaMotVer6.pdb
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csc.exe
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csc.exe.config
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csc.rsp
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csi.exe
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csi.exe.config
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csi.rsp
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.AppContext.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Collections.Immutable.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Console.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Globalization.Calendars.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.IO.Compression.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.IO.FileSystem.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Net.Http.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Net.Sockets.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Reflection.Metadata.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.ValueTuple.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Xml.XPath.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\vbc.exe
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\vbc.exe.config
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\vbc.rsp
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\VBCSCompiler.exe
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\roslyn\VBCSCompiler.exe.config
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\Antlr3.Runtime.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\Microsoft.Web.Infrastructure.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\Newtonsoft.Json.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Helpers.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Mvc.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Optimization.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Razor.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.Deployment.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.Razor.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\WebGrease.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Helpers.xml
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Mvc.xml
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Optimization.xml
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Razor.xml
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.xml
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.Deployment.xml
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.Razor.xml
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\Newtonsoft.Json.xml
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\Antlr3.Runtime.pdb
+F:\Documents\plataformaMotVer6\plataformaMotVer6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Documents\plataformaMotVer6\plataformaMotVer6\obj\Debug\plataformaMotVer6.csproj.AssemblyReference.cache
+F:\Documents\plataformaMotVer6\plataformaMotVer6\obj\Debug\plataformaMotVer6.csproj.CoreCompileInputs.cache
+F:\Documents\plataformaMotVer6\plataformaMotVer6\obj\Debug\plataformaMotVer6.csproj.CopyComplete
+F:\Documents\plataformaMotVer6\plataformaMotVer6\obj\Debug\plataformaMotVer6.dll
+F:\Documents\plataformaMotVer6\plataformaMotVer6\obj\Debug\plataformaMotVer6.pdb
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\plataformaMotVer6.dll.config
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\plataformaMotVer6.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\plataformaMotVer6.pdb
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csc.exe
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csc.exe.config
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csc.rsp
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csi.exe
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csi.exe.config
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csi.rsp
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.AppContext.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Collections.Immutable.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Console.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Globalization.Calendars.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.IO.Compression.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.IO.FileSystem.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Net.Http.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Net.Sockets.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Reflection.Metadata.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.ValueTuple.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Xml.XPath.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\vbc.exe
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\vbc.exe.config
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\vbc.rsp
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\VBCSCompiler.exe
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\roslyn\VBCSCompiler.exe.config
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\Antlr3.Runtime.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\Microsoft.Web.Infrastructure.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\Newtonsoft.Json.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Helpers.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Mvc.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Optimization.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Razor.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.Deployment.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.Razor.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\WebGrease.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Helpers.xml
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Mvc.xml
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Optimization.xml
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Razor.xml
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.xml
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.Deployment.xml
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.Razor.xml
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\Newtonsoft.Json.xml
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\Antlr3.Runtime.pdb
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\obj\Debug\plataformaMotVer6.csproj.AssemblyReference.cache
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\obj\Debug\plataformaMotVer6.csproj.CoreCompileInputs.cache
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\obj\Debug\plataformaMotVer6.csproj.CopyComplete
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\obj\Debug\plataformaMotVer6.dll
+F:\Documents\MEGAsync Downloads\plataformaMotVer6\plataformaMotVer6\obj\Debug\plataformaMotVer6.pdb
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\plataformaMotVer6.dll.config
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\plataformaMotVer6.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\plataformaMotVer6.pdb
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csc.exe
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csc.exe.config
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csc.rsp
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csi.exe
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csi.exe.config
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\csi.rsp
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.AppContext.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Console.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.IO.Compression.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Net.Http.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.ValueTuple.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\vbc.exe
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\vbc.exe.config
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\vbc.rsp
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\Antlr3.Runtime.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\Newtonsoft.Json.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Helpers.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Mvc.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Optimization.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Razor.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\WebGrease.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Helpers.xml
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Mvc.xml
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Optimization.xml
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\System.Web.Razor.xml
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.xml
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\Newtonsoft.Json.xml
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\Antlr3.Runtime.pdb
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\obj\Debug\plataformaMotVer6.csproj.AssemblyReference.cache
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\obj\Debug\plataformaMotVer6.csproj.CoreCompileInputs.cache
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\obj\Debug\platafor.6C4809A9.Up2Date
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\obj\Debug\plataformaMotVer6.dll
+C:\Users\Mot\Downloads\plataformaMotVer6-main\plataformaMotVer6\plataformaMotVer6\obj\Debug\plataformaMotVer6.pdb
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\plataformaMotVer6.dll.config
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\plataformaMotVer6.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\plataformaMotVer6.pdb
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\csc.exe
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\csc.exe.config
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\csc.rsp
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\csi.exe
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\csi.exe.config
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\csi.rsp
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.AppContext.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Collections.Immutable.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Console.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Globalization.Calendars.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.IO.Compression.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.IO.FileSystem.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Net.Http.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Net.Sockets.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Reflection.Metadata.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.ValueTuple.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Xml.XPath.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\vbc.exe
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\vbc.exe.config
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\vbc.rsp
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\VBCSCompiler.exe
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\roslyn\VBCSCompiler.exe.config
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\Antlr3.Runtime.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\Microsoft.Web.Infrastructure.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\Newtonsoft.Json.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\System.Web.Helpers.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\System.Web.Mvc.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\System.Web.Optimization.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\System.Web.Razor.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.Deployment.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.Razor.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\WebGrease.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\System.Web.Helpers.xml
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\System.Web.Mvc.xml
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\System.Web.Optimization.xml
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\System.Web.Razor.xml
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.xml
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.Deployment.xml
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.Razor.xml
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\Newtonsoft.Json.xml
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\Antlr3.Runtime.pdb
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\obj\Debug\plataformaMotVer6.csproj.AssemblyReference.cache
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\obj\Debug\plataformaMotVer6.csproj.CoreCompileInputs.cache
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\obj\Debug\plataformaMotVer6.dll
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\obj\Debug\plataformaMotVer6.pdb
+F:\Documents\GitHub\PlataformaMot7\plataformaMotVer6\obj\Debug\platafor.6C4809A9.Up2Date
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\plataformaMotVer6.dll.config
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\plataformaMotVer6.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\plataformaMotVer6.pdb
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\csc.exe
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\csc.exe.config
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\csc.rsp
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\csi.exe
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\csi.exe.config
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\csi.rsp
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.AppContext.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Collections.Immutable.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Console.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Globalization.Calendars.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.IO.Compression.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.IO.FileSystem.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Net.Http.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Net.Sockets.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Reflection.Metadata.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.ValueTuple.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Xml.XPath.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\vbc.exe
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\vbc.exe.config
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\vbc.rsp
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\VBCSCompiler.exe
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\roslyn\VBCSCompiler.exe.config
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\Antlr3.Runtime.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\Microsoft.Web.Infrastructure.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\Newtonsoft.Json.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\System.Web.Helpers.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\System.Web.Mvc.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\System.Web.Optimization.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\System.Web.Razor.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.Deployment.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.Razor.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\WebGrease.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\System.Web.Helpers.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\System.Web.Mvc.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\System.Web.Optimization.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\System.Web.Razor.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.Deployment.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.Razor.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\Newtonsoft.Json.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\Antlr3.Runtime.pdb
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\obj\Debug\plataformaMotVer6.csproj.AssemblyReference.cache
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\obj\Debug\plataformaMotVer6.csproj.CoreCompileInputs.cache
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\obj\Debug\platafor.6C4809A9.Up2Date
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\obj\Debug\plataformaMotVer6.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\flatpickr-date\PlataformaMot7\plataformaMotVer6\obj\Debug\plataformaMotVer6.pdb
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\plataformaMotVer6.dll.config
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\plataformaMotVer6.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\plataformaMotVer6.pdb
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\csc.exe
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\csc.exe.config
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\csc.rsp
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\csi.exe
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\csi.exe.config
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\csi.rsp
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.AppContext.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Collections.Immutable.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Console.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Globalization.Calendars.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.IO.Compression.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.IO.FileSystem.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Net.Http.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Net.Sockets.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Reflection.Metadata.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.ValueTuple.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Xml.XPath.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\vbc.exe
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\vbc.exe.config
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\vbc.rsp
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\VBCSCompiler.exe
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\roslyn\VBCSCompiler.exe.config
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\Antlr3.Runtime.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\Microsoft.Web.Infrastructure.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\Newtonsoft.Json.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\System.Web.Helpers.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\System.Web.Mvc.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\System.Web.Optimization.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\System.Web.Razor.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.Deployment.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.Razor.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\WebGrease.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\System.Web.Helpers.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\System.Web.Mvc.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\System.Web.Optimization.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\System.Web.Razor.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.Deployment.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.Razor.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\Newtonsoft.Json.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\Antlr3.Runtime.pdb
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\obj\Debug\plataformaMotVer6.csproj.AssemblyReference.cache
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\obj\Debug\plataformaMotVer6.csproj.CoreCompileInputs.cache
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\obj\Debug\platafor.6C4809A9.Up2Date
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\obj\Debug\plataformaMotVer6.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\PlataformaMot7\plataformaMotVer6\obj\Debug\plataformaMotVer6.pdb
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\plataformaMotVer6.dll.config
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\plataformaMotVer6.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\plataformaMotVer6.pdb
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\csc.exe
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\csc.exe.config
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\csc.rsp
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\csi.exe
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\csi.exe.config
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\csi.rsp
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.AppContext.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Collections.Immutable.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Console.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Globalization.Calendars.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.IO.Compression.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.IO.FileSystem.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Net.Http.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Net.Sockets.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Reflection.Metadata.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.ValueTuple.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Xml.XPath.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\vbc.exe
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\vbc.exe.config
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\vbc.rsp
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\VBCSCompiler.exe
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\roslyn\VBCSCompiler.exe.config
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\Antlr3.Runtime.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\Microsoft.Web.Infrastructure.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\Newtonsoft.Json.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\System.Web.Helpers.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\System.Web.Mvc.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\System.Web.Optimization.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\System.Web.Razor.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.Deployment.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.Razor.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\WebGrease.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\System.Web.Helpers.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\System.Web.Mvc.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\System.Web.Optimization.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\System.Web.Razor.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.Deployment.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.Razor.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\Newtonsoft.Json.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\Antlr3.Runtime.pdb
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\obj\Debug\plataformaMotVer6.csproj.AssemblyReference.cache
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\obj\Debug\plataformaMotVer6.csproj.CoreCompileInputs.cache
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\obj\Debug\platafor.6C4809A9.Up2Date
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\obj\Debug\plataformaMotVer6.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker\PlataformaMot7\plataformaMotVer6\obj\Debug\plataformaMotVer6.pdb
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\plataformaMotVer6.dll.config
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\plataformaMotVer6.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\plataformaMotVer6.pdb
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\csc.exe
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\csc.exe.config
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\csc.rsp
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\csi.exe
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\csi.exe.config
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\csi.rsp
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.AppContext.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Collections.Immutable.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Console.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Globalization.Calendars.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.IO.Compression.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.IO.FileSystem.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Net.Http.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Net.Sockets.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Reflection.Metadata.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.ValueTuple.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Xml.XPath.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\vbc.exe
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\vbc.exe.config
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\vbc.rsp
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\VBCSCompiler.exe
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\roslyn\VBCSCompiler.exe.config
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\Antlr3.Runtime.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\Microsoft.Web.Infrastructure.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\Newtonsoft.Json.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\System.Web.Helpers.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\System.Web.Mvc.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\System.Web.Optimization.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\System.Web.Razor.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.Deployment.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.Razor.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\WebGrease.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\System.Web.Helpers.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\System.Web.Mvc.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\System.Web.Optimization.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\System.Web.Razor.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.Deployment.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\System.Web.WebPages.Razor.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\Newtonsoft.Json.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\Antlr3.Runtime.pdb
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\obj\Debug\plataformaMotVer6.csproj.AssemblyReference.cache
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\obj\Debug\plataformaMotVer6.csproj.CoreCompileInputs.cache
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\obj\Debug\platafor.6C4809A9.Up2Date
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\obj\Debug\plataformaMotVer6.dll
+F:\Documents\MEGAsync Downloads\MOT COPY\datepicker2\PlataformaMot7\plataformaMotVer6\obj\Debug\plataformaMotVer6.pdb

@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        .navbar {
+            background-color: #4CAF50; /* Color de fondo para el encabezado */
+        }
+
+        .navbar-nav .nav-link {
+            color: #000000; /* Nuevo color negro para las pestañas */
+        }
+
+            .navbar-nav .nav-link:hover {
+                background-color: #FBC915; /* Color de fondo al pasar el mouse sobre las pestañas */
+                color: #ffffff; /* Cambiar el color del texto a blanco al pasar el mouse */
+            }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm">
+        <div class="container">
+            @Html.ActionLink("¡Bienvenido estimado funcionario!", "Activities", "ActivitiesBienestar", new { area = "" }, new { @class = "navbar-brand" })
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li>@Html.ActionLink("Actividades", "Activities", "ActivitiesBienestar", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Validar horas", "HoursValidateBienestar", "HoursReportBienestar", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Reporte de horas", "HoursReportBienestar", "HoursReportBienestar", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Cambiar Contraseña", "ChangepassBienestar", "Security", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Cargar Aprendices", "SaveApprentices", "Save", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Contacto", "ContactBienestar", "Contact", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Salir", "Exit", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "SaveApprentices";
+    Layout = "~/Views/Shared/_Layout - Bienestar.cshtml";
+}
+
+<h1>SaveApprentices</h1>
+<br />
+<h2>Crear Ficha</h2>
+<form action="@Url.Action("SaveFile", "Save")" method="post">
+    <input type="text" id="fichaNumero" name="fichaNumero" placeholder="Nº de Ficha" style="width: 100%; margin-bottom: 10px; padding: 10px; border-radius: 8px;" />
+    <input type="text" id="nombrePrograma" name="nombrePrograma" placeholder="Nombre del Programa" style="width: 100%; margin-bottom: 10px; padding: 10px; border-radius: 8px;" />
+    <input type="text" id="fechaInicio" name="fechaInicio" placeholder="Fecha de inicio: AA-MM-DD" style="width: 100%; margin-bottom: 10px; padding: 10px; border-radius: 8px;" pattern="\d{4}-\d{2}-\d{2}" title="Por favor, ingrese la fecha en el formato AAAA-MM-DD" />
+    <input type="text" id="fechaFinalizacion" name="fechaFinalizacion" placeholder="Fecha de Finalización: AA-MM-DD" style="width: 100%; margin-bottom: 10px; padding: 10px; border-radius: 8px;" />
+    <input type="text" id="jornada" name="jornada" placeholder="Jornada" style="width: 100%; margin-bottom: 10px; padding: 10px; border-radius: 8px;" />
+    <input type="date" id="fechaInicio" name="fechaInicio" style="width: 100%; margin-bottom: 10px; padding: 10px; border-radius: 8px;" />
+    <input type="submit" name="boton" value="Agregar" style="background-color: #2E4F4E; color: white; font-size: 18px; font-family: Arial, sans-serif; padding: 10px 20px; border-radius: 8px;" />
+</form>
+@TempData["MensajeFicha"]
+<br />
+
+<h2>Cargar archivo .csv de aprendices</h2>
+<form method="post" enctype="multipart/form-data">
+    <input type="file" name="fileIn" />
+    <button type="submit" name="chargeButton">Cargar</button>
+</form>
+
+@ViewData["Mensaje"]
+@ViewData["Exito"]

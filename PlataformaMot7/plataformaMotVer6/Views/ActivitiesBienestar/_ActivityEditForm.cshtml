@@ -1,0 +1,92 @@
+﻿@model plataformaMotVer6.Models.TblActividadesViewModel
+
+@{
+    ViewBag.Title = "";
+
+}
+
+
+@if (ViewBag.TipoDocumento != null || ViewBag.Categoria != null)
+{
+    using (Html.BeginForm("Activities", "ActivitiesBienestar", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        @Html.ValidationSummary(true)
+
+
+        <div class="filter-form-container">
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    @Html.LabelFor(model => model.IdActividad, "Nº de la Actividad:", htmlAttributes: new { @class = "control-label" })
+                    @Html.TextBoxFor(model => model.IdActividad, new { @readonly = "readonly", @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.IdActividad, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="col-md-4">
+                    @Html.LabelFor(model => model.NombreActividad, "Nombre de la Actividad:", htmlAttributes: new { @class = "control-label" })
+                    @Html.TextAreaFor(model => model.NombreActividad, new { @class = "form-control", @id = "NombreActividad" })
+                    @Html.ValidationMessageFor(model => model.NombreActividad, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="col-md-4">
+                    @Html.LabelFor(model => model.Categoria, "Categoría:", htmlAttributes: new { @class = "control-label" })
+                    @Html.DropDownListFor(model => model.Categoria, ViewBag.Categorias as SelectList, "Seleccione una categoría", new { htmlAttributes = new { @class = "form-control", @id = "Categoria" } })
+                    @Html.ValidationMessageFor(model => model.Categoria, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="col-md-4">
+                    @Html.LabelFor(model => model.HorasAsignadas, "Horas Asignadas:", htmlAttributes: new { @class = "control-label" })
+                    @Html.TextBoxFor(model => model.HorasAsignadas, new { htmlAttributes = new { @class = "form-control", type = "number", @id = "HorasAsignadas" } })
+                    @Html.ValidationMessageFor(model => model.HorasAsignadas, "", new { @class = "text-danger" })
+                </div>
+
+              
+                <div class="col-md-4">
+                    @Html.LabelFor(model => model.FechaInicio, "Fecha de Inicio:", htmlAttributes: new { @class = "control-label" })
+                    @Html.TextBoxFor(model => model.FechaInicio, new { @class = "form-control", placeholder = "dd-mm-yyyy", @id = "FechaInicio_Edit" })
+                    @Html.ValidationMessageFor(model => model.FechaInicio, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="col-md-4">
+                    @Html.LabelFor(model => model.FechaFinalizacion, "Fecha de Finalización:", htmlAttributes: new { @class = "control-label" })
+                    @Html.TextBoxFor(model => model.FechaFinalizacion, new { @class = "form-control", placeholder = "dd-mm-yyyy", @id = "FechaFinalizacion_Edit" })
+                    @Html.ValidationMessageFor(model => model.FechaFinalizacion, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="col-md-4">
+                    @Html.LabelFor(model => model.Descripcion, "Descripción:", htmlAttributes: new { @class = "control-label" })
+                    @Html.TextAreaFor(model => model.Descripcion, new { htmlAttributes = new { @class = "form-control", @id = "Descripcion" } })
+                    @Html.ValidationMessageFor(model => model.Descripcion, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="col-md-4">
+                    @Html.LabelFor(model => model.TipoDocumentoBienestar, "Tipo de documento:", htmlAttributes: new { @class = "control-label" })
+                    @Html.DropDownListFor(model => model.TipoDocumentoBienestar, ViewBag.TipoDocumento as SelectList, "Seleccione Tipo de Documento", new { @class = "form-control", @id = "TipoDocumentoBienestar" })
+                    @Html.ValidationMessageFor(model => model.TipoDocumentoBienestar, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="col-md-4">
+                    @Html.LabelFor(model => model.NumeroDocumentoBienestar, "Número de Documento:", htmlAttributes: new { @class = "control-label" })
+                    @Html.TextBoxFor(model => model.NumeroDocumentoBienestar, new { htmlAttributes = new { @class = "form-control", type = "number", @id = "NumeroDocumentoBienestar" } })
+                    @Html.ValidationMessageFor(model => model.NumeroDocumentoBienestar, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center">
+                    <button type="submit" name="Boton" value="Actualizar" class="btn btn-warning mx-">Actualizar</button>
+                    <button type="button" class="btn btn-secondary" onclick="cleanEditForm()">Limpiar</button>
+</div>
+            </div>
+        </div>
+        <br />
+
+    }
+
+}
+
+
+
+
+

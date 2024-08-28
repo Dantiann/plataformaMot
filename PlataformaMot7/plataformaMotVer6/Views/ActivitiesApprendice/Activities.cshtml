@@ -1,0 +1,127 @@
+﻿@model List<plataformaMotVer6.Models.TblActividadesViewModel>
+
+@{
+    ViewBag.Title = "Activities";
+    Layout = "~/Views/Shared/_Layout - Apprendice.cshtml";
+    <!-- Aquí se vincula el archivo CSS -->
+    <!--<link rel="stylesheet" type="text/css" href="~/Content/ActivitiesCss/">-->
+}
+
+
+<head>
+    <!-- ... Otros encabezados ... -->
+    <style>
+        .filter-form-container {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+            .filter-form-container form {
+                display: inline-flex;
+                align-items: center;
+            }
+
+            .filter-form-container input[type="text"],
+            .filter-form-container select {
+                margin-right: 10px;
+                width: 30%;
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                font-size: 14px;
+            }
+
+            .filter-form-container input[type="submit"] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 8px 16px;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+                font-size: 14px;
+                margin-left: 10px;
+            }
+    </style>
+</head>
+
+
+<main aria-label="title">
+    <div class="container">
+        <section class="col-md-0">
+            <h2>Lista de Actividades</h2>
+
+            @if (ViewBag.Categorias != null)
+            {
+                <div class="filter-form-container">
+                    <form action="@Url.Action("ActivitiesByCategoryAndDate", "ActivitiesApprendice")" method="get">
+                        @Html.DropDownList("category", ViewBag.Categorias as SelectList, "Seleccione una categoría")
+                        <input type="text" id="fechaInicio" name="fechaInicio" placeholder="Fecha de inicio">
+                        <input type="text" id="fechaFinalizacion" name="fechaFinalizacion" placeholder="Fecha de finalización">
+                        <input type="submit" value="Filtrar" />
+                    </form>
+                </div>
+            }
+
+            <br /><br />
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Nº Actividad</th>
+                        <th>Actividad</th>
+                        <th>Categoría</th>
+                        <th>Horas Asignadas</th>
+                        <th>Descripción</th>
+                        <th>Fecha de Inicio</th>
+                        <th>Fecha de Cierre</th>
+                        <th>Responsable</th>
+                        <th>Cargo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        foreach (var activity in Model)
+                        {
+                            <tr>
+                                <td>@activity.IdActividad</td>
+                                <td>@activity.NombreActividad</td>
+                                <td>@activity.Categoria</td>
+                                <td>@activity.HorasAsignadas</td>
+                                <td>@activity.Descripcion</td>
+                                <td>@(activity.FechaInicio != null ? DateTime.Parse(activity.FechaInicio).ToString("yyyy/MM/dd") : "")</td>
+                                <td>@(!string.IsNullOrEmpty(activity.FechaFinalizacion) ? DateTime.Parse(activity.FechaFinalizacion).ToString("yyyy/MM/dd") : "")</td>
+                                <td>@activity.Responsable</td>
+                                <td>@activity.Cargo</td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="9">No hay actividades disponibles.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </section>
+    </div>
+</main>
+
+@section scripts
+{
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+        $(function () {
+            $("#fechaInicio").datepicker({
+                dateFormat: "yy/mm/dd"
+            });
+
+            $("#fechaFinalizacion").datepicker({
+                dateFormat: "yy/mm/dd"
+            });
+        });
+    </script>
+}

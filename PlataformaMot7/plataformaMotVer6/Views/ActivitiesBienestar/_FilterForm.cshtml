@@ -1,0 +1,52 @@
+﻿@model plataformaMotVer6.Models.FilterActivitiesViewModel
+
+@{
+    ViewBag.Title = "_FilterForm";
+    //Layout = "~/Views/Shared/_Layout - Bienestar.cshtml";
+    Layout = null;
+}
+
+<h2>@*_FilterForm*@</h2>
+
+@if (ViewBag.Categorias != null)
+{
+    using (Html.BeginForm("ActivitiesByCategoryAndDate", "ActivitiesBienestar", FormMethod.Get))
+    {
+        @Html.AntiForgeryToken()
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+<div class="filter-form-container">
+    <div class="row">
+        <!-- Añade una fila -->
+        <div class="col-md-4">
+            @Html.LabelFor(model => model.Categoria, "Categoría:", htmlAttributes: new { @class = "control-label" })
+            @Html.DropDownListFor(model => model.Categoria, ViewBag.Categorias as SelectList, "Seleccione una categoría", new { @class = "form-control", @id = "Categoria_Filter" })
+            @Html.ValidationMessageFor(model => model.Categoria, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="col-md-4">
+            @Html.LabelFor(model => model.FechaInicio, "Fecha de Inicio:", htmlAttributes: new { @class = "control-label" })
+            @Html.TextBoxFor(model => model.FechaInicio, new { @class = "form-control", placeholder = "dd-mm-yyyy", @id = "FechaInicio_Filter" })
+            @Html.ValidationMessageFor(model => model.FechaInicio, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="col-md-4">
+            @Html.LabelFor(model => model.FechaFinalizacion, "Fecha de Finalización:", htmlAttributes: new { @class = "control-label" })
+            @Html.TextBoxFor(model => model.FechaFinalizacion, new { @class = "form-control", placeholder = "dd-mm-yyyy", @id = "FechaFinalizacion_Filter" })
+            @Html.ValidationMessageFor(model => model.FechaFinalizacion, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+    
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <button type="submit" class="btn btn-primary">Filtrar</button>
+            <button type="button" class="btn btn-secondary" onclick="cleanFilterForm()">Limpiar</button>
+        </div>
+    </div>
+</div>
+<br /><br />
+    }
+}
+

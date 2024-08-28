@@ -1,0 +1,69 @@
+﻿@model plataformaMotVer6.Models.TblUsuarios
+
+    @{
+        ViewBag.Title = "ChangepassApprendice";
+        Layout = "~/Views/Shared/_Layout - Apprendice.cshtml";
+    }
+
+
+    <div class="row">
+        <div class="col-sm-4">
+            <h2>Cambia tu contraseña</h2>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-style">
+
+                @using (Html.BeginForm("ChangepassApprendice", "Security", FormMethod.Post, new { @class = "form" }))
+                {
+
+                    @Html.AntiForgeryToken()
+
+                    @Html.HiddenFor(model => model.TipoDocumento)
+                    @Html.HiddenFor(model => model.NumeroDocumento)
+
+
+                    if (!ViewData.ModelState.IsValid)
+                    {
+                        <div class="alert alert-danger" style="color:red;">
+                            @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+                        </div>
+                    }
+
+
+                    if (ViewBag.SuccessMessage != null)
+                    {
+                        <div class="alert alert-success" style="color: green;">
+                            @ViewBag.SuccessMessage
+                        </div>
+                    }
+
+
+                    <label>Escribe tu actual contraseña</label>
+                    @Html.PasswordFor(model => model.ClaveActual, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.ClaveActual, "", new { @class = "text-danger" })
+
+                   <label>Escribe tu nueva contraseña</label>
+                    @Html.PasswordFor(model => model.ClaveNueva, new { @class = "form-control" })
+                    @*@Html.ValidationMessageFor(model => model.ClaveNueva, "", new { @class = "text-danger" })*@
+
+                    <label>Confirma tu nueva contraseña</label>
+                    @Html.PasswordFor(model => model.ConfirmarClaveNueva, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.ConfirmarClaveNueva, "", new { @class = "text-danger" })
+
+
+                    <div class="d-flex justify-content-center mt-3 login_container">
+                        <button type="submit" class="btn btn-lg btn-primary btn-block">Cambiar contraseña</button>
+                    </div>
+
+
+                }
+
+            </div>
+        </div>
+    </div>
+
