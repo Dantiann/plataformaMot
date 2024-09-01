@@ -1,0 +1,17 @@
+USE [plataformaMotVer6]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--EXEC spConsultAssistenceByActivity @CopiaIdActividad=15;
+
+--Procedimiento almacenado que permite consultar los registros de asistencia por Actividad
+CREATE PROCEDURE spConsultAssistenceByActivity
+	@CopiaIdActividad int
+AS
+BEGIN
+	SET NOCOUNT OFF; 
+	SELECT * FROM tblRegistroAsistencias WHERE copiaIdActividad=@CopiaIdActividad;
+END;

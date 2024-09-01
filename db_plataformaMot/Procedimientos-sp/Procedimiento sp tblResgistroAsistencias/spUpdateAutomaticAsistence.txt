@@ -1,0 +1,32 @@
+USE [plataformaMotVer6]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--EXEC spUpdateAutomaticAsistence @IdAsistencia 1, @EstadoValidacionBienestar =1, @TipoDocumentoBienestar 'CC', 	@NumeroDocumentoBienestar='778901237';
+--procedimiento almacenado que permite modificar el estadoValidacionBienestar de un registro
+--en la tabla tblRegistroAsistencias agregando la cantidad de horas asistidas de
+--forma automatica desde el registro de la actividad en la tabla tblActividades en el campo 
+--horasAsignadas
+
+CREATE PROCEDURE [dbo].[spUpdateAutomaticAsistence]
+	@IdAsistencia int,
+	@EstadoValidacionBienestar bit,
+	@TipoDocumentoBienestar varchar(10),
+	@NumeroDocumentoBienestar varchar(20)
+AS
+BEGIN
+	declare @CopiaIdActividad int;
+	select @CopiaIdActividad=copiaIdActividad from tblRegistroAsistencias where idAsistencia=@IdAsistencia;
+	declare @HorasAsistidas	int;
+	select @HorasAsistidas=horasAsignadas from tblActividades Where idActividad=@CopiaIdActividad;
+	UPDATE tblRegistroAsistencias
+	SET estadoValidacionBienestar=@EstadoValidacionBienestar,
+		fechaValidacion=getdate(),
+		horasAsistidas=@HorasAsistidas,
+		tipoDocumentoBienestar=@TipoDocumentoBienestar,
+		numeroDocumentoBienestar=@NumeroDocumentoBienestar
+	WHERE idAsistencia=@IdAsistencia;
+END;

@@ -1,0 +1,18 @@
+USE [plataformaMotVer6]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--EXEC spConsultAssitenceByApprentice @TipoDocumentoAprendiz='CC', @NumeroDocumentoAprendiz='101122334'
+
+--Procedimiento almacenado que permite consultar los registros de asistencia por Aprendiz
+CREATE PROCEDURE spConsultAssitenceByApprentice
+	@TipoDocumentoAprendiz varchar(10),
+	@NumeroDocumentoAprendiz varchar(20)
+AS
+BEGIN
+	SET NOCOUNT OFF; 
+	SELECT * FROM tblRegistroAsistencias WHERE tipoDocumentoAprendiz=@TipoDocumentoAprendiz AND numeroDocumentoAprendiz=@NumeroDocumentoAprendiz;
+END;

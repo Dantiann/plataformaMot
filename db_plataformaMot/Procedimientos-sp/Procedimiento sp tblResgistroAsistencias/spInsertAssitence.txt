@@ -1,0 +1,25 @@
+USE [plataformaMotVer6]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--EXEC spInsertAssitence @CopiaIdActividad=12 , @TipoDocumentoAprendiz='CE', @NumeroDocumentoAprendiz='567890120';
+
+--Procedimiento almacenado que permite ingresar un registro a la tabla tblRegistroAsistencias 
+--con estadoValidacionBienestar Null, fechaValidacion Null, horasAsistidas , 
+--tipoDocumentoBienestar Null y numeroDocumentoBienestar Null
+CREATE PROCEDURE spInsertAssitence
+	@CopiaIdActividad int,
+	@TipoDocumentoAprendiz varchar(10),
+	@NumeroDocumentoAprendiz varchar(20)
+AS
+BEGIN
+	SET NOCOUNT OFF; 
+	INSERT INTO tblRegistroAsistencias (copiaIdActividad, tipoDocumentoAprendiz, numeroDocumentoAprendiz)
+	VALUES(@CopiaIdActividad, @TipoDocumentoAprendiz, @NumeroDocumentoAprendiz)
+END;
+
+
+

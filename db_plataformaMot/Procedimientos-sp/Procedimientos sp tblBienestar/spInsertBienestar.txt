@@ -1,0 +1,26 @@
+USE [plataformaMotVer6]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--Inicialmente se inserta un Usuario de Bienestar en la tabla tblUsuarios
+--DECLARE @Registrado bit, @Mensaje varchar(20)
+--EXEC spInsertarUsuario @TipoDocumento='CE', @NumeroDocumento='52513553', @Nombres='Rocio', @Apellidos='Mantilla', @Correo='rocio.mantilla@soy.sena.edu.co', @Clave='Rocio123', @Rol='Bienestar', @Registrado=@Registrado output, @Mensaje=@Mensaje Output;
+--SELECT @Registrado, @Mensaje;
+
+--Luego si se procede a insertar el usuario-bienestar en el spInsertBienestar
+--EXEC spInsertBienestar @TipoDocumentoBienestar='CE', @NumeroDocumentoBienestar='52513553', @Cargo='Trabajador Social';
+
+--Procedimiento almacenado que permite insertar un registro en la tabla tblBienestar
+CREATE PROCEDURE spInsertBienestar
+	@TipoDocumentoBienestar varchar(10),
+	@NumeroDocumentoBienestar varchar(20),
+	@Cargo varchar(30)
+AS
+BEGIN
+	SET NOCOUNT OFF;
+	INSERT INTO tblBienestar(tipoDocumentoBienestar, numeroDocumentoBienestar, cargo)
+	VALUES(@TipoDocumentoBienestar, @NumeroDocumentoBienestar, @Cargo)
+END;

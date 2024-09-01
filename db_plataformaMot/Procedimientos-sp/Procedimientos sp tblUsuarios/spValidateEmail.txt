@@ -1,0 +1,35 @@
+USE [plataformaMotVer6]
+GO
+/****** Object:  StoredProcedure [dbo].[spCheckEmailExists]    Script Date: 9/03/2024 10:50:49 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--DECLARE @EmailExists BIT; 
+--EXEC spValidateEmail @Correo = 'luis.sanchez@soy.sena.edu.co', @EmailExists = @EmailExists OUTPUT;
+--SELECT @EmailExists AS EmailExistsResult;
+
+-- Procedimiento para verificar si un correo electrónico existe
+
+CREATE PROCEDURE [dbo].[spValidateEmail]
+    @Correo VARCHAR(100),
+    @EmailExists BIT OUTPUT
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	-- Verificar si el correo existe en la tabla
+    IF EXISTS (SELECT 1 FROM tblUsuarios WHERE correo = @Correo)
+    BEGIN
+        SET @EmailExists = 1; -- El correo electrónico existe
+    END
+    ELSE
+    BEGIN
+        SET @EmailExists = 0; -- El correo electrónico no existe
+    END
+END
+
+
+
+--select *from tblUsuarios;

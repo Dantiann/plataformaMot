@@ -1,0 +1,20 @@
+USE [plataformaMotVer6]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--EXEC spConsultApprenticesByFile @CopiaFichaNumero = '2617513';
+
+--Procedimiento almacenado que permite consultar aprendices por ficha
+CREATE PROCEDURE spConsultApprenticesByFile
+	@CopiaFichaNumero varchar (20)
+AS
+BEGIN
+	SET NOCOUNT OFF;
+	SELECT * FROM tblAprendices WHERE copiaFichaNumero=@CopiaFichaNumero
+END;
+
+
+

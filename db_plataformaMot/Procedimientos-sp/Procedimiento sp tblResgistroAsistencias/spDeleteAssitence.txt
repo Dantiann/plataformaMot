@@ -1,0 +1,17 @@
+USE [plataformaMotVer6]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- EXEC spDeleteAssitence @IdAsistencia = ;
+
+--Procedimiento almacenado que permite eliminar un registro de la tabla tblRegistroAsistencias
+CREATE PROCEDURE spDeleteAssitence
+	@IdAsistencia int
+AS
+BEGIN
+	DELETE tblRegistroAsistencias
+	WHERE idAsistencia=@IdAsistencia;
+END;

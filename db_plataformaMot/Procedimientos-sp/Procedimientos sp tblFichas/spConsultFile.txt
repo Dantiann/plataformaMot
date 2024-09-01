@@ -1,0 +1,19 @@
+USE [plataformaMotVer6]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--Consulta una ficha en particular de la lista de fichas existentes
+--EXEC spConsultFile @FichaNumero = 'D2617540';
+
+
+--Procedimiento almacenado que permite consultar una ficha de la tblFichas a partir de su llave primaria
+CREATE PROCEDURE spConsultFile 
+	@FichaNumero varchar(20)
+AS
+BEGIN
+	SET NOCOUNT OFF;
+	SELECT * FROM tblFichas WHERE fichaNumero=@FichaNumero;
+END;

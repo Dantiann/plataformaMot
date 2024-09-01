@@ -1,0 +1,16 @@
+CREATE PROCEDURE [dbo].[spGetUserByEmailAndToken]
+
+    @Correo VARCHAR(100),
+    @Token_recuperacion VARCHAR(250)
+AS
+BEGIN
+    SELECT
+        correo,
+        token_recuperacion,
+        fecha_expiracion_token
+    FROM
+        tblUsuarios
+    WHERE
+        correo = @Correo AND
+        token_recuperacion = @Token_recuperacion
+END

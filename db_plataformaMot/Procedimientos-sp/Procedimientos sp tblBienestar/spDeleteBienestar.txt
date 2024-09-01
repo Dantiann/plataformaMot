@@ -1,0 +1,18 @@
+USE [plataformaMotVer6]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--EXEC spDeleteBienestar @TipoDocumentoBienestar='CE', @NumeroDocumentoBienestar='52513553';
+
+--Procedimiento almacenado que permite eliminar un registro de la tblBienestar
+CREATE PROCEDURE spDeleteBienestar
+	@TipoDocumentoBienestar varchar(10),
+	@NumeroDocumentoBienestar varchar(20)
+AS
+BEGIN
+	DELETE FROM tblBienestar
+	WHERE tipoDocumentoBienestar=@TipoDocumentoBienestar AND numeroDocumentoBienestar=@NumeroDocumentoBienestar;
+END;

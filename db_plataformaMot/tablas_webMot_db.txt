@@ -1,0 +1,96 @@
+--0. Creación de la base de datos webMot_db
+CREATE DATABASE webMot_db;
+
+USE[plataformaMotVer6]
+
+--1. Creación tabla usuarios
+CREATE TABLE usuarios(
+		tipoDocumento varchar(10) not null CHECK (tipoDocumento in ('CC', 'CE', 'TI', 'PEP', 'PPT')),
+		numeroDocumento varchar(20) not null,
+		nombres varchar(80) not null,
+		apellidos varchar(80) not null,
+		correo varchar(100) not null,
+		clave varchar(250) not null,
+		rol varchar(20) not null check(rol in ('Administrador', 'Aprendiz', 'Bienestar')),
+		token_recuperacion varchar(250),
+		fecha_expiracion_token datetime,
+		primary key(tipoDocumento, numeroDocumento)
+);
+--SELECT * FROM usuarios
+
+
+--2. Creación tabla fichas
+CREATE TABLE fichas(
+		fichaNumero varchar(20) not null,
+		nombrePrograma varchar(100) not null,		
+		fechaInicio date not null,
+		fechaFinalizacion date,
+		jornada varchar(10) not null check(jornada in ('Diurna','Mixta')),
+		primary key (fichaNumero) 
+);
+
+--SELECT * FROM fichas;
+
+
+--3. Creación tabla bienestar
+CREATE TABLE bienestar(
+		tipoDocumentoBienestar varchar(10) not null,
+		numeroDocumentoBienestar varchar(20) not null,
+		cargo varchar(30) not null check(cargo in ('Apoyo en Cultura', 'Apoyo en Deportes', 'Apoyo en Salud', 'Líder de Bienestar', 'Psicólogo', 'Trabajador Social')),
+		primary key (tipoDocumentoBienestar, numeroDocumentoBienestar),
+		foreign key (tipoDocumentoBienestar, numeroDocumentoBienestar) references usuarios(tipoDocumento, numeroDocumento) ON DELETE CASCADE
+);
+
+--SELECT * FROM bienestar;
+
+
+--4. Creación tabla actividades
+CREATE TABLE actividades(
+		 idActividad int identity(1,1),
+		 nombreActividad varchar(200) not null,
+		 categoria varchar(20) not null check(categoria in ('Bienestar', 'Cultura', 'Deportes', 'Salud', 'Psicosocial')),
+		 horasAsignadas int default 0,
+		 descripcion varchar (500) not null,
+		 fechaInicio date not null,
+		 fechaFinalizacion date,
+		 tipoDocumentoBienestar varchar(10),
+		 numeroDocumentoBienestar varchar(20),
+		 primary key (idActividad),
+		 foreign key (tipoDocumentoBienestar, numeroDocumentoBienestar) references bienestar(tipoDocumentoBienestar, numeroDocumentoBienestar) ON DELETE CASCADE
+);
+
+--SELECT * FROM actividades;
+
+
+--5. Creación Tabla aprendices
+CREATE TABLE aprendices(
+		 tipoDocumentoAprendiz varchar(10) not null,
+		 numeroDocumentoAprendiz varchar(20) not null,
+		 totalHorasAsistidas int default 0,
+		 copiaFichaNumero varchar(20) not null,
+		 primary key (tipoDocumentoAprendiz, numeroDocumentoAprendiz),
+		 foreign key (tipoDocumentoAprendiz, numeroDocumentoAprendiz) references tblUsuarios(tipoDocumento, numeroDocumento),
+		 foreign key (copiaFichaNumero) references fichas(fichaNumero)
+);
+
+--SELECT * FROM aprendices;
+
+
+--6. Creación tabla registroAsistencias
+CREATE TABLE registroAsistencias(
+		idAsistencia int identity(1,1),
+		estadoValidacionBienestar bit default 0,
+		fechaValidacion date default getdate(),
+		horasAsistidas int default 0,
+		copiaIdActividad int not null,
+		tipoDocumentoAprendiz varchar(10) not null,
+		numeroDocumentoAprendiz varchar(20) not null,
+		tipoDocumentoBienestar varchar(10),
+		numeroDocumentoBienestar varchar(20),
+		primary key (idAsistencia),
+		foreign key (copiaIdActividad) references actividades(idActividad),
+		foreign key (tipoDocumentoAprendiz, numeroDocumentoAprendiz) references aprendices(tipoDocumentoAprendiz, numeroDocumentoAprendiz),
+		foreign key (tipoDocumentoBienestar, numeroDocumentoBienestar) references bienestar(tipoDocumentoBienestar, numeroDocumentoBienestar)
+);
+
+--SELECT * FROM registroAsistencias;

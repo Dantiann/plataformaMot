@@ -1,0 +1,18 @@
+USE [plataformaMotVer6]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--EXEC spDeleteActivity @IdActividad=26;
+
+--Procedimiento almacenado que permite eliminar un registro de la tabla tblActividades
+CREATE PROCEDURE spDeleteActivity
+	@IdActividad int
+AS
+BEGIN
+	DELETE FROM tblActividades
+	WHERE idActividad = @IdActividad
+END;
+

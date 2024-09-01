@@ -1,0 +1,22 @@
+USE [plataformaMotVer6]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--EXEC spInsertFile @FichaNumero='D2617540',  @NombrePrograma= 'Tecnólogo Desarrollo y Adaptación de Prótesis y Ortesis', @FechaInicio='2024-02-15', @FechaFinalizacion='2025-02-15', @Jornada= 'Mixta';
+
+--Procedimiento almacenado que introduce un nuevo registro en la tblFichas
+CREATE PROCEDURE spInsertFile
+	@FichaNumero varchar(20),
+	@NombrePrograma varchar(100),
+	@FechaInicio date,
+	@FechaFinalizacion date,
+	@Jornada varchar(10)
+AS
+BEGIN
+	SET NOCOUNT OFF;
+	INSERT INTO tblFichas(fichaNumero, nombrePrograma, fechaInicio, fechaFinalizacion, jornada)	
+	VALUES(@FichaNumero, @NombrePrograma, @FechaInicio, @FechaFinalizacion, @Jornada);
+END;

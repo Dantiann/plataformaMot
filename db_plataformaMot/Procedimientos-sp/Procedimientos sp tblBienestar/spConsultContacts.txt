@@ -1,0 +1,22 @@
+USE [plataformaMotVer6]
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--EXEC [spConsultContacts];
+-- Procedimiento almacenado que permite consultar todos los registros de la tabla tblBienestar
+CREATE PROCEDURE [dbo].[spConsultContacts]
+AS
+BEGIN
+	SET NOCOUNT OFF;
+
+	SELECT CONCAT(us.nombres, ' ', us.apellidos) AS NombreCompleto, bie.cargo, us.correo
+	FROM tblUsuarios us
+	INNER JOIN tblBienestar bie ON bie.tipoDocumentoBienestar = us.tipoDocumento AND bie.numeroDocumentoBienestar = us.numeroDocumento
+	WHERE us.rol = 'Bienestar'
+	ORDER BY CASE WHEN bie.cargo = 'Líder de Bienestar' THEN 1 ELSE 2 END, bie.cargo; 
+
+END

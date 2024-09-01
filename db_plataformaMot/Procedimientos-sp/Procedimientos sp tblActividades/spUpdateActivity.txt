@@ -1,0 +1,36 @@
+USE [plataformaMotVer6]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--EXEC spUpdateActivity @IdActividad=26, @NombreActividad='ADSO Spelling Bee', @Categoria='Cultura', @HorasAsignadas=25, @Descripcion='First Spelling Bee to be held in the library at 2pm', @FechaInicio='2024-02-08', @FechaFinalizacion='2024-02-08', @TipoDocumentoBienestar='CE', @NumeroDocumentoBienestar='234567890'; 
+
+
+--Procedimiento almacenado que permite actualizar un registro de la tabla tblActividades
+CREATE PROCEDURE spUpdateActivity
+	@IdActividad int,
+	@NombreActividad varchar(200),
+	@Categoria varchar(20),
+	@HorasAsignadas int,
+	@Descripcion varchar (1000),
+	@FechaInicio date,
+	@FechaFinalizacion date,
+	@TipoDocumentoBienestar varchar(10),
+	@NumeroDocumentoBienestar varchar(20)
+AS
+BEGIN
+	UPDATE tblActividades
+	SET
+		nombreActividad=@NombreActividad,
+		categoria=@Categoria,
+		horasAsignadas=@HorasAsignadas,
+		descripcion=@Descripcion,
+		fechaInicio=@FechaInicio,
+		fechaFinalizacion=@FechaFinalizacion,
+		tipoDocumentoBienestar=@TipoDocumentoBienestar,
+		numeroDocumentoBienestar=@NumeroDocumentoBienestar
+	WHERE idActividad=@IdActividad;
+END;
+

@@ -1,0 +1,20 @@
+USE [plataformaMotVer6]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--EXEC spUpdateBienestar @TipoDocumentoBienestar='CE', @NumeroDocumentoBienestar='52513553', @Cargo='Apoyo en Deportes';
+
+--Procedimiento almacenado que permite actualizar el cargo de un registro de la tblBienestar
+CREATE PROCEDURE spUpdateBienestar
+	@TipoDocumentoBienestar varchar(10),
+	@NumeroDocumentoBienestar varchar(20),
+	@Cargo varchar(30)
+AS
+BEGIN
+	UPDATE tblBienestar
+	SET cargo=@Cargo
+	WHERE tipoDocumentoBienestar=@TipoDocumentoBienestar AND numeroDocumentoBienestar=@NumeroDocumentoBienestar;
+END;

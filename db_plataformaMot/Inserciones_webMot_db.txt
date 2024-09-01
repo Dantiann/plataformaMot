@@ -1,0 +1,283 @@
+USE[webMot_db]
+
+--1. Inserciones de datos en la tabla usuarios
+INSERT INTO usuarios (tipoDocumento, numeroDocumento, nombres, apellidos, correo, clave, rol)
+VALUES
+	('CC', '456789015', 'Laura', 'Martínez', 'laura.martinez@soy.sena.edu.co', 'dbbf038fada6d9cf8b3b3b730d3bb95984ce6a517e72a578818f51c20e799d5f', 'Administrador'),
+	('CE', '234567890', 'María', 'Gómez', 'maria.gomez@soy.sena.edu.co', '02508a0eb6d1612890d88a93433b050d008d653076bdf9f341b243823fa77ca7', 'Bienestar'),
+	('CC', '678901237', 'David', 'García', 'david.garcia@soy.sena.edu.co', '06036e2343750e3a5b0aa55724748fb0c6659214ae087a852c20d5e743151d67', 'Bienestar'),
+	('CC', '126456789', 'Héctor', 'Torres', 'hector.torres@soy.sena.edu.co', '377d24b40547a9cf506fe5087e2a41e4c2f9770a97dcb9a6925465e724f4f9f8', 'Bienestar'),
+	('PPT', '345678901', 'Liliana', 'Gutiérrez', 'liliana.gutierrez@soy.sena.edu.co', '76a999ae4cf439b91780f3f9c641c9c01e4868da85b38f726c593b1dd4a44b02', 'Bienestar'),
+	('CC', '678901247', 'Camila', 'Rendón', 'camila.rendon@soy.sena.edu.co', '5c98cc09bbdec1a6b88c0d6d84f3c23d94f4c741cfcbe7ca36ec0b775bc4f535', 'Bienestar'),
+	('CC', '778901237', 'Camila', 'Castellanos', 'camila@soy.sena.edu.co', '5c98cc09bbdec1a6b88c0d6d84f3c23d94f4c741cfcbe7ca36ec0b775bc4f535', 'Bienestar'),
+	('CC', '52513553', 'Rocío', 'Padilla', 'rocio.padilla@soy.sena.edu.co', 'ace841ff297bb77525506bac63fa760c180d27b9b69317621f9ef79ebed7cd2e', 'Bienestar'),
+	('CE', '567890120', 'Ana', 'López', 'ana.lopez@soy.sena.edu.co', '6e67655e641e285008d67cdbeb5229616b94d91b4d5c04fe4ebdc0ad01e42828', 'Aprendiz'),
+	('PEP', '901238567', 'Gabriela', 'Ruiz', 'gabriela.ruiz@soy.sena.edu.co', '8754df47dd10ef98f743a28a2437b17a1b2f0954241b025296135687dc047077', 'Aprendiz'),
+	('TI', '234567891', 'Javier', 'Fernández', 'javier.fernandez@soy.sena.edu.co', 'd3e1360609f65a9ca4850b1e144c696e039364fd8f50cc7fcc8a0dd4f09280a7', 'Aprendiz'),
+	('CC', '567890123', 'Natalia', 'Martínez', 'natalia.martinez@soy.sena.edu.co', '135bf74310481778aa7ea86e822181bb6f4e09d46974527af3574ef74bc15be6', 'Aprendiz'),
+	('CE', '678901234', 'Óscar', 'García', 'oscar.garcia@soy.sena.edu.co', '29dd14f213c00c0e47ab4c2f2816c7ba6ee5085b97e55530511477e0b71e19f6', 'Aprendiz'),
+	('TI', '789012345', 'Patricia', 'Hernández', 'patricia.hernandez@soy.sena.edu.co', '7c8c9da4281ed257a570d4cf8910f75fdac0f5a5d4039bf6faec43f643f78a6f', 'Aprendiz'),
+	('PPT', '901234567', 'Rocío', 'Torres', 'rocio.torres@soy.sena.edu.co', 'ace841ff297bb77525506bac63fa760c180d27b9b69317621f9ef79ebed7cd2e', 'Aprendiz'),
+	('CC', '112237445', 'Santiago', 'Ruiz', 'santiago.ruiz@soy.sena.edu.co', '4b8c79fad0876f7c64d962047c6485a1a88ade15f4b48e39d3afe77dc50e4878', 'Aprendiz'),
+	('CE', '223344556', 'Tatiana', 'López', 'tatiana.lopez@soy.sena.edu.co', '11f598a08a89e4a59e34aef7537b85e6b16b0c5b761a4035d3f616e60d4ba321', 'Aprendiz'),
+	('CC', '445566778', 'Víctor', 'González', 'victor.gonzalez@soy.sena.edu.co', '3532ae91a896649690658d7e7f697cebb9bcac2481840246dd33a2f38ecfa2c7', 'Aprendiz'),
+	('PEP', '556677889', 'Walter', 'Hernández', 'walter.hernandez@soy.sena.edu.co', '01d8c9f8cb0f7041f73da6c75e4ae361eddd836567e94bde42b4571b8e52988e', 'Aprendiz'),
+	('CE', '667788990', 'Ximena', 'Fernández', 'ximena.fernandez@soy.sena.edu.co', 'b9a17aea55699adc926ab952175de674e9eb19c548902bc851d91147dba9fd4d', 'Aprendiz'),
+	('CE', '889900112', 'Zacarías', 'Gómez', 'zacarias.gomez@soy.sena.edu.co', 'ff00efcdbd16449cf7b852e2ab1e52f10d1c03100301cef444fd2b616700239d', 'Aprendiz'),
+	('TI', '900011223', 'Alejandra', 'Herrera', 'alejandra.herrera@soy.sena.edu.co', '9f19f3a066fc66cfd10f704b26112921de5896dce765b889ad0b4deb671d6523', 'Aprendiz'),
+	('CC', '911122334', 'Benjamín', 'Iglesias', 'benjamin.iglesias@soy.sena.edu.co', 'cdac832f354fcb2c9733020c3d01d55d0645c12a61ac916312930ed727ec079c', 'Aprendiz'),
+	('TI', '955566778', 'Fabián', 'Martínez', 'fabian.martinez@soy.sena.edu.co', '7a4fafb6f43a10d303e17f8ce3f13ab8f3dc2fb4c4208cf27021bfa870f0900a', 'Aprendiz'),
+	('PEP', '966677889', 'Gloria', 'Núñez', 'gloria.nunez@soy.sena.edu.co', '27efd608eb52ca017a051a1955426144632da952cbfb0da673bb6a79eb202d98', 'Aprendiz'),
+	('CE', '977788990', 'Hugo', 'Ortega', 'hugo.ortega@soy.sena.edu.co', '13fa55a64ecc321d9a6bef0c75edbb476972085634469a2be54c6cc19e275d5f', 'Aprendiz'),
+	('CC', '988899001', 'Inés', 'Pérez', 'ines.perez@soy.sena.edu.co', 'be855a80cf6bc88a4a060b4dc31f15779064850e9ea6c06616df941bf38b389e', 'Aprendiz'),
+	('PPT', '999900112', 'Javier', 'Quintero', 'javier.quintero@soy.sena.edu.co', 'd3e1360609f65a9ca4850b1e144c696e039364fd8f50cc7fcc8a0dd4f09280a7', 'Aprendiz'),
+	('TI', '100011223', 'Karla', 'Ramírez', 'karla.ramirez@soy.sena.edu.co', '4c03e60d8566a1021e1052e1515cf721dde54d5ae018bca091f1a33eb6590de4', 'Aprendiz'),
+	('CC', '101122334', 'Luis', 'Sánchez', 'luis.sanchez@soy.sena.edu.co', '4127e092b7986e47ad06a7e14519329e66c4f423173712a9ce090d95fe7a9b79', 'Aprendiz'),
+	('CE', '102233445', 'Mónica', 'Téllez', 'monica.tellez@soy.sena.edu.co', 'd476b6f4f28fa5ee00d9e509e3a4dae0e11a3cdf545043c2fedca613aba5779d', 'Aprendiz'),
+	('PPT', '103344556', 'Néstor', 'Urbina', 'nestor.urbina@soy.sena.edu.co', '0cfe318108d2e14b279be218bd7a16398a69d9fa89fce8d7e9799c0982f6b7f3', 'Aprendiz'),
+	('CC', '104455667', 'Olga', 'Vargas', 'olga.vargas@soy.sena.edu.co', 'aa8c0bdf6cf782708a963d08f917bddbf3cada586dc7f1a6b10f5e9056e10d39', 'Aprendiz'),
+	('TI', '105566778', 'Pablo', 'Ximénez', 'pablo.ximenez@soy.sena.edu.co', 'a4014b391d6d976c397c2cbd499e5d1a6cca930590884c0821cb818d73a01906', 'Aprendiz'),
+	('CC', '106677889', 'Quirino', 'Yáñez', 'quirino.yanez@soy.sena.edu.co', 'fed583b6339d406c933bf2d06b1f4c84487514782431a35c5be1032d5f33b44e', 'Aprendiz'),
+	('CC', '107788990', 'Rosa', 'Zamora', 'rosa.zamora@soy.sena.edu.co', 'b78fd02d68f91ef2c48633b799d51f31ae56bc955f1951746709e22c872260ed', 'Aprendiz'),
+	('TI', '108899001', 'Sergio', 'Aguilar', 'sergio.aguilar@soy.sena.edu.co', 'b4f44f5e1595e5d97eb7c34fafb7fe60babd66c3ec1e67b6a306f49fe1b4ba97', 'Aprendiz'),
+	('CC', '110011223', 'Uriel', 'Castañeda', 'uriel.castaneda@soy.sena.edu.co', '75ea330eb421282bc871b45ad2bf25f178f0dd21c95f5fd53e97646f200e2615', 'Aprendiz'),
+	('CE', '111122334', 'Vanesa', 'Díaz', 'vanesa.diaz@soy.sena.edu.co', '0020d041f22623219544af893dc18e71e0c7d0c908a101a52008fa02d9b5afad', 'Aprendiz'),
+	('TI', '112233445', 'Waldo', 'Escobar', 'waldo.escobar@soy.sena.edu.co', 'd079f89de5443bef8c761416e5a49eb10127fce48ebbde95a52f895fa63eae8e', 'Aprendiz'),
+	('CC', '113344556', 'Xenia', 'Fuentes', 'xenia.fuentes@soy.sena.edu.co', '5cc33a72fc23f4f5f4096aaaf63efc3334e7bfb878c8a16b02c3223717f98a16', 'Aprendiz'),
+	('CE', '114455667', 'Yago', 'García', 'yago.garcia@soy.sena.edu.co', '4cd972b52165bd032de6926e59a9fd879bdb0f60c2cabe83ed4dbfd6647b67c7', 'Aprendiz'),
+	('CC', '1000000', 'Camilo Andrés', 'Jiménez Rojas', 'cajimenez75@misena.edu.co', 'ea20808d859c3b5f7653bd24e0348e789eb677e85da1e9af372d755e515ee76c', 'Bienestar'),
+	('CC', '1000001', 'Yolima', 'Martínez Torres', 'ymartinez460@soy.sena.edu.co', 'b7989f2bd1fa95b836d091224a4dc4066cfa04a89460a8158b3750e8b820b44f','Bienestar'),
+	('CE', '2001111','Alex', 'Garnica Jiménez', 'corde_6@yahoo.com', '3a2fff45be2db8a8571c27060ab09e597b375621d391dceab14d5d6ba87632db', 'Aprendiz'),
+	('CC', '8001111', 'Alexander', 'Garnica', 'pagarnica83@misena.edu.co', 'b50a82f661b1ce5bdc058dc572248dd7e05288844fd150bf6721e421588c4e63', 'Bienestar');
+SELECT * FROM usuarios;
+
+
+
+--2. Inserciones de datos en la tabla fichas
+INSERT INTO fichas (fichaNumero, nombrePrograma, fechaInicio, fechaFinalizacion, jornada)
+VALUES 
+    ('2617531', 'Técnico Mantenimiento de Automatismos Industriales', '2023-01-15', '2025-01-15', 'Diurna'),
+    ('2617532', 'Técnico en Sistemas', '2023-02-10', '2024-05-10', 'Mixta'),
+    ('2617533', 'Técnico en Programación de Software', '2023-03-20', '2024-06-20', 'Diurna'),
+    ('2617534', 'Tecnólogo Desarrollo Creativo de Productos para la Industria', '2023-04-25', '2025-07-25', 'Diurna'),
+    ('2617535', 'Tecnólogo Aseguramiento Metrológico Industrial', '2023-05-12', '2025-08-12', 'Mixta'),
+    ('2617536', 'Tecnólogo Desarrollo de Componentes Mecánicos', '2023-06-08', '2025-09-08', 'Diurna'),
+    ('2617537', 'Tecnólogo Diseño e Integración de Automatismos Mecatrónico', '2023-07-17', '2025-07-17', 'Diurna'),
+    ('2617538', 'Tecnólogo Diseño de Moldes para Transformación de Materiales Plásticos', '2023-08-14', '2025-08-14', 'Mixta'),
+    ('2617539', 'Tecnólogo Análisis y Desarrollo de Software', '2023-09-30', '2025-12-30', 'Diurna'),
+    ('2617510', 'Tecnólogo Desarrollo y Adaptación de Prótesis y Ortesis', '2023-10-05', '2026-10-05', 'Diurna'),
+    ('2617511', 'Técnico Mantenimiento de Automatismos Industriales', '2023-11-22', '2025-11-22', 'Mixta'),
+    ('2617512', 'Técnico en Sistemas', '2023-12-18', '2025-03-18', 'Diurna'),
+    ('2617513', 'Técnico en Programación de Software', '2024-01-09', '2025-04-09', 'Mixta'),
+    ('2617514', 'Tecnólogo Desarrollo Creativo de Productos para la Industria', '2024-02-28', '2026-05-28', 'Mixta'),
+    ('2617515', 'Tecnólogo Aseguramiento Metrológico Industrial', '2024-03-02', '2026-06-02', 'Diurna'),
+    ('2617516', 'Tecnólogo Desarrollo de Componentes Mecánicos', '2024-04-11', '2026-07-11', 'Mixta'),
+    ('2617517', 'Tecnólogo Diseño e Integración de Automatismos Mecatrónico', '2024-05-19', '2026-05-19', 'Mixta'),
+    ('2617518', 'Tecnólogo Diseño de Moldes para Transformación de Materiales Plásticos', '2024-06-27', '2026-06-27', 'Diurna'),
+    ('2617519', 'Tecnólogo Análisis y Desarrollo de Software', '2024-07-08', '2026-10-08', 'Mixta'),
+    ('2617520', 'Tecnólogo Desarrollo y Adaptación de Prótesis y Ortesis', '2024-08-14', '2027-08-14', 'Mixta');
+	
+SELECT * FROM fichas;
+
+
+
+--3. Inserciones de datos en la tabla bienestar
+INSERT INTO bienestar (tipoDocumentoBienestar, numeroDocumentoBienestar , cargo)
+VALUES
+	('CE', '234567890', 'Apoyo en Cultura'),
+	('PPT', '345678901', 'Apoyo en Deportes'),
+	('CC', '678901237', 'Apoyo en Salud'),
+	('CC',  '52513553', 'Líder de Bienestar'),
+	('CC' , '678901247', 'Psicólogo'),	
+	('CC', '126456789', 'Psicólogo'),
+	('CC',  '778901237', 'Trabajador Social'),
+	('CC', '1000000', 'Apoyo en Cultura'),
+	('CC', '1000001', 'Apoyo en Salud'),
+	('CC', '8001111', 'Apoyo en Deportes');
+	
+SELECT * FROM bienestar ;
+
+
+
+--4. Inserciones de datos en la tabla actividades
+INSERT INTO actividades(nombreActividad, categoria, horasAsignadas, descripcion, fechaInicio, fechaFinalizacion, tipoDocumentoBienestar, numeroDocumentoBienestar)
+VALUES
+	('Reuniones de voceros y escuela de liderazgo', 'Psicosocial', DEFAULT, 'Participar permanentemente en las reuniones y escuela 
+	de liderazgo (una reunión al mes). La asignación de horas será proporcional a la asistencia a cada reunión, y para quienes 
+	asisten de manera permanente con un total del 80% de asistencia durante el año vigente a la reunión mensual de voceros y 
+	escuela de liderazgo, se le asignarán la totalidad de horas.', '0001-01-01', NULL, 'CC', '778901237'),
+
+	('Representante de Centro y Suplente', 'Psicosocial', 40, 'Promover el liderazgo a través de su rol de representante y ejecución
+	de su gestión. Asignación de la totalidad de horas; siempre y cuando cumpla de forma responsable con su rol y bajo el respeto a la 
+	comunidad SENA.', '0001-01-01', NULL, NULL, NULL),
+
+	('Apoyo en acciones, campañas y/o jornadas formativas', 'Bienestar', DEFAULT, 'Para aprendices que apoyen en la organización y/o 
+	ejecución de las campañas, acciones, jornadas y otras propuestas según programación de las actividades de Bienestar para el año 2024.
+	Asignación de horas proporcional a las actividades/campañas realizadas.', '0001-01-01', NULL, NULL, NULL),
+
+	('Control visual anual, citologías anuales, exámen de VIH y sífilis, control anual de planificación familiar, prueba de antigeno
+	psa anual, donación de sangre, o vacunación covid', 'Salud', 4, 'Solicitar registro medico de control anual remitido por la EPS o
+	entidad prestadora del servicio con fecha vigente dentro del periodo de la formación. Válido solo una vez al año. Asignación de 4
+	horas anuales por cada control realizado.', '0001-01-01', NULL, 'CC', '678901237'),
+
+	('Semana Andina de prevención de embarazo en Adolescentes', 'Salud', DEFAULT, 'Participar en las actividades encaminadas hacia la 
+	educación sexual y reproductiva para prevenir el embarazo en la población adolescente durante la semana Andina que se desarrollará 
+	la cuarta semana de septiembre. Asignación de horas proporcional a las actividades realizadas.', '0001-01-01', NULL, 'CC', '678901237'),
+
+	('Habilidades culturales', 'cultura', DEFAULT, 'Participación en las diferentes actividades y jornadas propuestas desde el componente 
+	de expresión cultural (clases abiertas de danza, paradas y muestras artísticas). Asignación de horas proporcional a las actividades
+	realizadas.', '0001-01-01', NULL, 'CE', '234567890'),
+
+	('Participación en los grupos artísticos representativos ', 'Cultura', DEFAULT, 'Para los aprendices que participen de manera activa
+	y permanente en los grupos de danza moderna, folclor, canto, club de lectura y cuentería del Centro. Asignación de la totalidad de
+	las horas.', '0001-01-01', NULL, 'CE', '234567890' ),
+
+	('Gimnasio', 'Deportes', DEFAULT, 'Entrenamiento en el gimnasio del Complejo. Asignación de horas proporcional al tiempo del 
+	entrenamiento.', '0001-01-01', NULL, 'PPT', '345678901'),
+
+	('Encuentros deportivos', 'Deportes', DEFAULT, 'Participación en torneos internos y amistosos: fútbol, futsala, baloncesto, voleibol,
+	atletismo, tenis de mesa, ajedrez y/o paradas deportivas. Asignación de horas proporcional al tiempo de los torneos.', '0001-01-01', NULL,
+	'PPT', '345678901'),
+
+	('Participación en los seleccionados deportivos', 'Deportes', DEFAULT, 'Para los aprendices que participen de manera activa y permanente
+	en los entrenamientos de las diferentes disciplinas deportivas: fútbol, futsala, baloncesto, voleibol, atletismo, tenis de mesa y
+	ajedrez. Asignación de la totalidad de las horas.', '0001-01-01', NULL, 'PPT', '345678901'),
+
+	('Participación en el semillero Bienestar', 'Psicosocial', DEFAULT, 'Participar activamente en el semillero de bienestar. Asignación
+	de horas proporcional a las actividades realizadas.', '0001-01-01', NULL, NULL, NULL),
+
+	('Participación en las actividades, campañas y jornadas orientadas a la promoción y prevención de la salud', 'Salud', DEFAULT,
+	'Participación en las actividades orientadas a la promoción y prevención de la salud programadas desde el área de enfermería.
+	Asignación de horas proporcional a las actividades realizadas.', '0001-01-01', NULL, 'CC', '678901237'),
+
+	('Donación de uniformes', 'Bienestar', DEFAULT, 'Para los aprendices que donen el uniforme después de culminado su proceso formativo 
+	(pantalón, bleiser y/o camisa). Donación de: - Camisa, pantalón y bléiser: 20 horas - Dos prendas: 15 horas - Una prenda: 7 horas.',
+	'0001-01-01', NULL, NULL, NULL),
+
+	('Modalidad mixta: entrega de actividades asignadas desde cada área de Bienestar', 'Bienestar', 5, 'Entrega de actividades asignadas
+	desde salud, psicosocial, deporte y cultura, ubicadas en el drive: [https://drive.google.com/drive/folders/1PE4xm0gAdSZqc8MeIRWwAldNoFkHS5h?usp=sharing]
+	Link de entrega: [ https://forms.gle/5aExSyE2R3rUvKA16]. Asignación de 5 horas por cada módulo entregado.', '0001-01-01', NULL, NULL, NULL),
+
+	('Presentación a entrevistas', 'Psicosocial', 4, 'Preparación a entrevistas de trabajo.', '2024-01-15', '2024-01-18', 'CC', '678901247'),
+	
+	('Taller sobre las relaciones de pareja', 'Psicosocial', 5, 'El respeto y la comunicación asertiva.', '2023-11-01', '2023-11-05', 
+	'CC', '126456789'),
+	
+	('Conferencia de manejo de la ira', 'Psicosocial', 5, 'Inteligencia emocional.', '2023-11-02', '2023-11-02', 'CC', '126456789'),
+	
+	('Botellas de amor', 'Bienestar', 20, 'Por 5 botellas que recibes máximo de 1L donde deben estar llenas de material plástico reciclable.',
+	'2024-03-01', '2024-03-01', 'CC', '778901237'),
+	
+	('Conversatorio sobre métodos de planificación', 'Salud', 8, 'Taller sobre métodos de planificación.', '2023-10-18', '2023-10-20', 
+	'CC', '678901237'),
+	
+	('Partido de fútbol', 'Deportes', 5, 'Torneo relámpago.', '2023-10-15', '2023-10-15', 'PPT', '345678901'),
+	
+	('Torneo de tenis', 'Deportes', 5, 'Torneo de tenis mixto.', '2023-12-05', '2023-12-08', 'PPT','345678901'),
+	
+	('Clases de natación', 'Deportes', 5, 'Clases de natación para principiantes.', '2024-01-10', '2024-01-12', 'PPT','345678901'),
+	
+	('Partido de voleibol', 'Deportes', 4, 'Partido amistoso de voleibol mixto.', '2024-02-05', '2024-02-05', 'PPT', '345678901'),
+	
+	('Zumba', 'Deportes', 5, 'Sesión grupal.', '2023-12-10', '2023-12-10', 'PPT', '345678901'),
+	
+	('Seminario de literatura', 'Cultura', 5, 'Seminario sobre obras literarias clásicas.', '2024-02-08', '2024-02-08', 'CE','234567890');
+
+
+SELECT * FROM actividades;
+
+
+
+
+--5. Inserciones de datos en la tabla aprendices
+INSERT INTO aprendices(tipoDocumentoAprendiz, numeroDocumentoAprendiz, totalHorasAsistidas, copiaFichaNumero)
+VALUES
+	
+    ('PEP', '901238567', 5, '2617532'),
+    ('TI', '234567891', 5, '2617533'),
+    ('CC', '567890123', 20, '2617534'),
+    ('CE', '678901234', 8, '2617535'),
+    ('TI', '789012345', 5, '2617536'),
+    ('PPT', '901234567', 5, '2617537'),
+    ('CC', '112237445', 5, '2617538'),
+    ('CE', '223344556', 4, '2617539'),
+    ('CC', '445566778', 5, '2617510'),
+    ('PEP', '556677889', 5, '2617511'),
+    ('CE', '667788990', 4, '2617512'),
+    ('CE', '114455667', 40, '2617514'),
+    ('TI', '900011223', 5, '2617514'),
+    ('CC', '911122334', 20, '2617515'),
+    ('TI', '955566778', 8, '2617516'),
+    ('PEP', '966677889', 5, '2617517'),
+    ('CE', '977788990', 5, '2617518'),
+    ('CC', '988899001', 5, '2617519'),
+    ('PPT', '999900112', 36, '2617520'),
+    ('CE', '102233445', 5, '2617513'),
+    ('PPT', '103344556', 5, '2617513'),
+    ('TI', '100011223', 38, '2617513'),
+    ('TI', '105566778', 5, '2617513'),
+    ('TI', '108899001', 5, '2617513'),
+    ('TI', '112233445', 21, '2617513'),
+    ('CC', '101122334', 33, '2617513'),
+    ('CC', '104455667', 5, '2617513'),
+    ('CC', '106677889', 5, '2617513'),
+    ('CC', '107788990', 5, '2617513'),
+    ('CC', '110011223', 5, '2617513'),
+    ('CC', '113344556', 5, '2617513'),
+    ('CE', '111122334', 5, '2617513'),
+    ('CE', '889900112', 5, '2617513'),
+    ('CE', '2001111', 5, '2617520');
+
+
+SELECT * FROM aprendices;
+
+
+
+--6. Inserciones de datos de tabla registroAsistencias
+INSERT INTO registroAsistencias (estadoValidacionBienestar, fechaValidacion, horasAsistidas, copiaIdActividad, tipoDocumentoAprendiz, numeroDocumentoAprendiz, tipoDocumentoBienestar, numeroDocumentoBienestar)
+VALUES
+(1, '2024-02-02', 40, 1, 'CE', '114455667', 'CC', '778901237'),
+	(1, '2024-02-03', 4, 4, 'TI', '112233445', 'CC', '678901237'),
+	(1, '2024-02-04', 2, 8, 'TI', '112233445', 'PPT','345678901'),
+	(1, '2024-02-05', 10, 12, 'TI', '112233445', 'CC', '678901237'),
+(1, '2024-02-07', 4, 15, 'PPT', '999900112', 'CC', '678901247'),
+	(1, '2024-02-08', 4, 15, 'CE', '667788990', 'CC', '678901247'),
+	(1, '2024-02-09', 5, 16, 'CE', '889900112', 'CC', '126456789'),
+	(1, '2024-02-10', 5, 16, 'PEP', '901238567', 'CC', '126456789'),
+	(1, '2024-02-11', 5, 16, 'TI', '100011223', 'CC', '126456789'),
+	(1, '2024-02-12', 5, 17, 'TI', '234567891', 'CC', '126456789'),
+	(1, '2024-02-13', 5, 17, 'TI', '900011223', 'CC', '126456789'),
+	(1, '2024-02-14', 20, 18, 'CC', '911122334', 'CC', '778901237'),
+	(1, '2024-02-15', 20, 18, 'CC', '567890123', 'CC', '778901237'),
+	(1, '2024-02-16', 20, 18, 'PPT', '999900112', 'CC', '778901237'),
+	(1, '2024-02-17', 20, 18, 'TI', '100011223', 'CC', '778901237'),
+	(1, '2024-02-18', 20, 18, 'CC', '101122334', 'CC', '778901237'),
+	(1, '2024-02-19', 8, 19, 'CE', '678901234', 'CC', '778901237'),
+	(1, '2024-02-20', 8, 19, 'PPT', '999900112', 'CC', '678901237'),
+	(1, '2024-02-21', 8, 19, 'TI', '100011223', 'CC', '678901237'),
+	(1, '2024-02-22', 8, 19, 'CC', '101122334', 'CC', '678901237'),
+	(1, '2024-02-23', 8, 19, 'TI', '955566778', 'CC', '678901237'),
+	(1, '2024-02-24', 5, 20, 'PEP', '966677889', 'PPT','345678901'),
+	(1, '2024-02-25', 5, 20, 'TI', '789012345', 'PPT','345678901'),
+	(1, '2024-02-26', 5, 21, 'PPT', '901234567', 'PPT','345678901'),
+	(1, '2024-02-27', 5, 21, 'CE', '977788990', 'PPT','345678901'),
+	(1, '2024-02-28', 5, 21, 'CC', '988899001', 'PPT','345678901'),
+	(1, '2024-03-01', 5, 22, 'CC', '112237445', 'PPT','345678901'),
+	(1, '2024-03-02', 4, 23, 'CE', '223344556', 'PPT','345678901'),
+	(1, '2024-03-03', 4, 23, 'PPT', '999900112', 'PPT','345678901'),
+	(1, '2024-03-04', 5, 24, 'TI', '100011223', 'PPT','345678901'),
+	(1, '2024-03-05', 5, 24, 'CC', '445566778', 'PPT','345678901'),
+	(1, '2024-03-06', 5, 25, 'PEP', '556677889', 'PPT','345678901'),
+	(1, '2024-03-07', 5, 25, 'CC', '101122334', 'CE','234567890'),
+	(1, '2024-03-08', 5, 25, 'CE', '102233445', 'CE','234567890'),
+	(1, '2024-03-09', 5, 25, 'PPT', '103344556', 'CE','234567890'),
+	(1, '2024-03-10', 5, 25, 'CC', '104455667', 'CE','234567890'),
+	(1, '2024-03-11', 5, 25, 'TI', '105566778', 'CE','234567890'),
+	(1, '2024-03-12', 5, 25, 'CC', '106677889', 'CE','234567890'),
+	(1, '2024-03-13', 5, 25, 'CC', '107788990', 'CE','234567890'),
+	(1, '2024-03-14', 5, 25, 'TI', '108899001', 'CE','234567890'),
+	(1, '2024-03-15', 5, 25, 'CC', '110011223', 'CE','234567890'),
+	(1, '2024-03-16', 5, 25, 'CE', '111122334', 'CE','234567890'),
+	(1, DEFAULT, 5, 25, 'TI', '112233445', 'CE','234567890'),
+	(1, DEFAULT, 5, 25, 'CC', '113344556', 'CE','234567890');
+SELECT * FROM registroAsistencias;

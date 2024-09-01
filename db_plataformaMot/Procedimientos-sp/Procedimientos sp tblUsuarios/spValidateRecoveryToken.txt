@@ -1,0 +1,28 @@
+CREATE PROCEDURE [dbo].[spValidateRecoveryToken]
+    @Correo VARCHAR(100),
+    @Token_recuperacion VARCHAR(250),
+    @TokenValido BIT OUTPUT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    DECLARE @Fecha_expiracion_token DATETIME;
+
+    SELECT @Fecha_expiracion_token = fecha_expiracion_token
+    FROM tblUsuarios
+    WHERE correo = @Correo AND token_recuperacion = @Token_recuperacion;
+
+    IF @Fecha_expiracion_token IS NULL
+    BEGIN
+        SET @TokenValido = 0; -- Token no encontrado o inválido
+        RETURN;
+    END
+
+    IF @Fecha_expiracion_token < GETDATE()
+    BEGIN
+        SET @TokenValido = 0; -- Token expirado
+        RETURN;
+    END
+
+    SET @TokenValido = 1; -- Token válido
+END

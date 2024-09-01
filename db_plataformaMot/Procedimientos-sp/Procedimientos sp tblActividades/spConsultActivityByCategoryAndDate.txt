@@ -1,0 +1,43 @@
+USE [plataformaMotVer6]
+GO
+/****** Object:  StoredProcedure [dbo].[spConsultActivityByCategoryAndDate]    Script Date: 14/02/2024 1:39:26 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--EXEC spConsultActivityByCategoryAndDate @Categoria = 'Psicosocial', @FechaInicio = '2023-10-01', @FechaFinalizacion = '15-12-2023'
+
+--Procedimiento almacenado que permite consultar registros de la tabla tblActividades por Categoria
+ALTER PROCEDURE [dbo].[spConsultActivityByCategoryAndDate]
+    @Categoria varchar(20),
+    @FechaInicio date,
+    @FechaFinalizacion date
+AS
+SET NOCOUNT OFF;
+BEGIN
+    SELECT 
+		act.idActividad, 
+		act.nombreActividad, 
+		act.categoria,
+		act.horasAsignadas,
+		act.descripcion,
+		act.fechaInicio,
+		act.fechaFinalizacion, 
+		CONCAT(us.nombres,' ',us.apellidos) AS 'responsable',
+		bie.cargo
+	FROM tblActividades act
+		INNER JOIN tblBienestar bie 
+			ON bie.tipoDocumentoBienestar = act.tipoDocumentoBienestar AND
+			   bie.numeroDocumentoBienestar = act.numeroDocumentoBienestar
+		INNER JOIN tblUsuarios us 
+			ON us.tipoDocumento = bie.tipoDocumentoBienestar AND 
+			   us.numeroDocumento = bie.numeroDocumentoBienestar	
+    WHERE (categoria = @Categoria) AND (
+		(fechaInicio BETWEEN @FechaInicio AND @FechaFinalizacion) 
+		OR (fechaFinalizacion BETWEEN @FechaInicio AND @FechaFinalizacion) 
+		OR ((fechaInicio<=@FechaInicio) AND (fechaFinalizacion>=@FechaFinalizacion))
+		)
+    ORDER BY idActividad DESC;
+END;
+

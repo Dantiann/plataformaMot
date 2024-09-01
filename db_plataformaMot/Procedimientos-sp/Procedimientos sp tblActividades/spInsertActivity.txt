@@ -1,0 +1,41 @@
+USE [plataformaMotVer6]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--EXEC spInsertActivity @NombreActividad='Spelling Bee', @Categoria='Cultura', @HorasAsignadas=20, @Descripcion='First Spelling Bee to be held in the library at 2pm', @FechaInicio='2024-03-14', @FechaFinalizacion='2024-03-14', @TipoDocumentoBienestar='CE', @NumeroDocumentoBienestar='234567890';
+
+--Procedimiento almacenado que permite insertar un registro en la tabla tblActividades
+CREATE PROCEDURE spInsertActivity
+	@NombreActividad varchar(200),
+	@Categoria varchar(20),
+	@HorasAsignadas int,
+	@Descripcion varchar (1000),
+	@FechaInicio date,
+	@FechaFinalizacion date,
+	@TipoDocumentoBienestar varchar(10),
+	@NumeroDocumentoBienestar varchar(20)
+AS
+BEGIN
+	SET NOCOUNT OFF; 
+	INSERT INTO tblActividades(
+		nombreActividad, 
+		categoria, 
+		horasAsignadas, 
+		descripcion, 
+		fechaInicio, 
+		fechaFinalizacion, 
+		tipoDocumentoBienestar,
+		numeroDocumentoBienestar)
+	VALUES(
+		@NombreActividad, 
+		@Categoria, 
+		@HorasAsignadas,
+		@Descripcion, 
+		@FechaInicio, 
+		@FechaFinalizacion, 
+		@TipoDocumentoBienestar, 
+		@NumeroDocumentoBienestar)
+END;

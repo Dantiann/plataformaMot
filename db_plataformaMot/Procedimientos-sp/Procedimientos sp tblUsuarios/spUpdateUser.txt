@@ -1,0 +1,23 @@
+USE [plataformaMotVer6]
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--EXEC spUpdatePassUser @TipoDocumento='TI', @NumeroDocumento='955566778',  @ClaveActual='12345', @ClaveNueva='Fabian123'; 
+
+--Procedimiento almacenado que permite actualizar la clave de un registro de la tabla tblUsuarios
+CREATE PROCEDURE [dbo].[spUpdatePassUser]
+	@TipoDocumento varchar(10),
+	@NumeroDocumento varchar(20),
+	@ClaveActual varchar(250),
+	@ClaveNueva varchar (250)
+AS
+BEGIN
+	UPDATE tblUsuarios
+	SET
+		clave=@ClaveNueva
+	WHERE tipoDocumento=@TipoDocumento AND numeroDocumento=@NumeroDocumento AND clave=@ClaveActual;
+END;

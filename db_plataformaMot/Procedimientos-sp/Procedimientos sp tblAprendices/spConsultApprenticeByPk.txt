@@ -1,0 +1,19 @@
+USE [plataformaMotVer6]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--EXEC spConsultApprenticeByPk @TipoDocumentoAprendiz='CE', @NumeroDocumentoAprendiz='20016062';
+
+--Procedimiento almacenado que permite consultar un aprendiz a partir de la llave primaria
+CREATE PROCEDURE spConsultApprenticeByPk 
+	@TipoDocumentoAprendiz varchar(10), 
+	@NumeroDocumentoAprendiz varchar(15)
+AS
+BEGIN
+	SET NOCOUNT OFF;
+	SELECT * FROM tblAprendices
+	WHERE tipoDocumentoAprendiz=@TipoDocumentoAprendiz And numeroDocumentoAprendiz=@NumeroDocumentoAprendiz
+END;

@@ -1,0 +1,36 @@
+USE [plataformaMotVer6]
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--EXEC spConsultActivityByCategory @Categoria = 'Cultura'
+
+--Procedimiento almacenado que permite consultar registros de la tabla tblActividades por Categoria
+ALTER PROCEDURE [dbo].[spConsultActivityByCategory]
+	@Categoria varchar(20)
+AS
+SET NOCOUNT OFF;
+BEGIN
+    SELECT 
+	act.idActividad, 
+	act.nombreActividad, 
+	act.categoria,
+	act.horasAsignadas,
+	act.descripcion,
+	act.fechaInicio,
+	act.fechaFinalizacion, 
+	CONCAT(us.nombres,' ',us.apellidos) AS 'responsable',
+	bie.cargo
+FROM tblActividades act
+INNER JOIN tblBienestar bie 
+	ON bie.tipoDocumentoBienestar = act.tipoDocumentoBienestar AND
+	   bie.numeroDocumentoBienestar = act.numeroDocumentoBienestar
+INNER JOIN tblUsuarios us 
+	ON us.tipoDocumento = bie.tipoDocumentoBienestar AND 
+	   us.numeroDocumento = bie.numeroDocumentoBienestar	
+    WHERE categoria = @Categoria
+    ORDER BY idActividad DESC;
+END;

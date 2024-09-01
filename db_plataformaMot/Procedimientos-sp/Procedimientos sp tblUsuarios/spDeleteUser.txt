@@ -1,0 +1,18 @@
+USE [plataformaMotVer6]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--EXEC spEliminarUsuario @TipoDocumento='CC', @NumeroDocumento='456789015';
+
+--Procedimiento almacenado que permite eliminar un registro de la tabla tblUsuarios
+CREATE PROCEDURE spDeleteUser
+	@TipoDocumento varchar(10),
+	@NumeroDocumento varchar(20)
+AS
+BEGIN
+	DELETE FROM tblUsuarios
+	WHERE tipoDocumento=@TipoDocumento AND numeroDocumento=@NumeroDocumento;
+END;

@@ -1,0 +1,31 @@
+USE [plataformaMotVer6]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+--EXEC spUpdateManualAssistance @IdAsistencia=1, @EstadoValidacionBienestar=1, @HorasAsistidas=20, @TipoDocumentoBienestar='CC', @NumeroDocumentoBienestar='778901237';
+
+--procedimiento almacenado que permite modificar el estadoValidacionBienestar de un registro 
+--en la tabla tblRegistroAsistencias agregando la cantidad de horas asistidas de forma manual
+
+CREATE PROCEDURE spUpdateManualAssistance
+	@IdAsistencia int,
+	@EstadoValidacionBienestar bit,
+	@HorasAsistidas int,
+	@TipoDocumentoBienestar varchar(10),
+	@NumeroDocumentoBienestar varchar(20)
+AS
+BEGIN
+	UPDATE tblRegistroAsistencias
+	SET estadoValidacionBienestar=@EstadoValidacionBienestar,
+		fechaValidacion=getdate(),
+		horasAsistidas=@HorasAsistidas,
+		tipoDocumentoBienestar=@TipoDocumentoBienestar,
+		numeroDocumentoBienestar=@NumeroDocumentoBienestar
+	WHERE idAsistencia=@IdAsistencia;
+END;
+
+

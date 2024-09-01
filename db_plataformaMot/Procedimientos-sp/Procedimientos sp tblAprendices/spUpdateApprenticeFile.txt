@@ -1,0 +1,21 @@
+USE [plataformaMotVer6]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--EXEC spUpdateApprenticeFile @TipoDocumentoAprendiz='CE', @NumeroDocumentoAprendiz='20016062', @CopiaFichaNumero = '2617520';
+
+--Procedimiento almacenado que permite actualizar la ficha de un registro de la tabla tblAprendices
+CREATE PROCEDURE spUpdateApprenticeFile
+	@TipoDocumentoAprendiz varchar(10),
+	@NumeroDocumentoAprendiz varchar(20),
+	@CopiaFichaNumero varchar(20)
+AS
+BEGIN
+	UPDATE tblAprendices
+	SET
+	copiaFichaNumero=@CopiaFichaNumero
+	WHERE tipoDocumentoAprendiz=@TipoDocumentoAprendiz AND numeroDocumentoAprendiz=@NumeroDocumentoAprendiz;
+END;

@@ -1,0 +1,23 @@
+USE [plataformaMotVer6]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+EXEC spValidateUser @TipoDocumento = 'CC', @NumeroDocumento = '456789015', @Clave = 'dbbf038fada6d9cf8b3b3b730d3bb95984ce6a517e72a578818f51c20e799d5f';
+EXEC spValidateUser @TipoDocumento = 'CC', @NumeroDocumento = '126456789', @Clave = '377d24b40547a9cf506fe5087e2a41e4c2f9770a97dcb9a6925465e724f4f9f8';
+EXEC spValidateUser @TipoDocumento = 'CC', @NumeroDocumento = '101122334', @Clave = '4127e092b7986e47ad06a7e14519329e66c4f423173712a9ce090d95fe7a9b79';
+
+CREATE PROCEDURE spValidateUser
+	@TipoDocumento varchar(10),
+	@NumeroDocumento varchar(20),
+	@Clave varchar(250)
+AS
+BEGIN
+	IF(EXISTS(SELECT * FROM tblUsuarios WHERE tipoDocumento=@TipoDocumento AND numeroDocumento=@NumeroDocumento AND clave=@Clave))
+		--SELECT 1
+		SELECT tipoDocumento, numeroDocumento, nombres, apellidos, correo, clave, rol FROM tblUsuarios WHERE tipoDocumento=@TipoDocumento  AND numeroDocumento=@NumeroDocumento AND clave=@Clave
+	ELSE
+		SELECT null
+END;

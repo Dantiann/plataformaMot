@@ -1,0 +1,17 @@
+USE [plataformaMotVer6]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--EXEC spDeleteFile @FichaNumero='D2617540';
+
+--Procedimiento almacenado que permite eliminar un registro de la tabla tblFichas
+CREATE PROCEDURE spDeleteFile
+	@FichaNumero varchar(20)
+AS
+BEGIN
+	DELETE FROM tblFichas
+	WHERE fichaNumero=@FichaNumero;
+END;

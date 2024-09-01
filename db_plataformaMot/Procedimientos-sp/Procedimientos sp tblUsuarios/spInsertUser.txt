@@ -1,0 +1,41 @@
+USE [plataformaMotVer6]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+--DECLARE @Registrado bit, @Mensaje varchar(20)
+--EXEC spInsertUser @TipoDocumento='CC', @NumeroDocumento='456789015', @Nombres='Laura', @Apellidos='Martínez', @Correo='laura.martinez@soy.sena.edu.co', @Clave='Laura123', @Rol='Aprendiz', @Registrado=@Registrado output, @Mensaje=@Mensaje Output;
+--SELECT @Registrado, @Mensaje;
+
+
+--Procedimiento almacenado que permite insertar o registar un usuario en la tabla tblUsuarios previa validación en la base de datos
+CREATE PROCEDURE spInsertUser
+	@TipoDocumento varchar(10),
+	@NumeroDocumento varchar(20),
+	@Nombres varchar(80),
+	@Apellidos varchar(80),
+	@Correo varchar(100),
+	@Clave varchar(250),
+	@Rol varchar(20),
+	@Registrado BIT OUTPUT,
+	@Mensaje varchar(20) output
+AS
+BEGIN
+	SET NOCOUNT OFF;
+	IF(NOT EXISTS(SELECT * FROM tblUsuarios WHERE tipoDocumento=@TipoDocumento AND numeroDocumento=@NumeroDocumento))
+	BEGIN
+		INSERT INTO tblUsuarios(tipoDocumento, numeroDocumento, nombres, apellidos, correo, clave, rol)
+		VALUES(@TipoDocumento, @NumeroDocumento, @Nombres, @Apellidos, @Correo, @Clave, @Rol)
+		SET @Registrado=1
+		SET @Mensaje='Usuario registrado'
+	END;
+	ELSE
+	BEGIN
+		SET @Registrado=0
+		SET @Mensaje='Correo ya existe'
+	END
+END;
+
