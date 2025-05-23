@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\",
+  "WorkspaceRootPath": "D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|f:\\documents\\megasync downloads\\mot copy\\plataformamot7\\plataformamotver6\\models\\tblusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|solutionrelative:plataformamotver6\\models\\tblusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|f:\\documents\\megasync downloads\\mot copy\\plataformamot7\\plataformamotver6\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|d:\\2 docs\\ulocal\\documentos\\github\\plataformamot\\plataformamot7\\plataformamotver6\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|solutionrelative:plataformamotver6\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|f:\\documents\\megasync downloads\\mot copy\\plataformamot7\\plataformamotver6\\views\\activitiesbienestar\\_activityinsertform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformamotver6\\models\\tblusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|solutionrelative:plataformamotver6\\models\\tblusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformamotver6\\views\\activitiesbienestar\\_activityinsertform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|solutionrelative:plataformamotver6\\views\\activitiesbienestar\\_activityinsertform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\plataformamotver6\\views\\activitiesbienestar\\_activityeditform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformamotver6\\views\\activitiesbienestar\\_activityeditform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|solutionrelative:plataformamotver6\\views\\activitiesbienestar\\_activityeditform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\plataformamotver6\\models\\activitiesviewmodel\\tblactividadesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformamotver6\\models\\activitiesviewmodel\\tblactividadesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|solutionrelative:plataformamotver6\\models\\activitiesviewmodel\\tblactividadesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\plataformamotver6\\views\\activitiesbienestar\\activities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformamotver6\\views\\activitiesbienestar\\activities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|solutionrelative:plataformamotver6\\views\\activitiesbienestar\\activities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\plataformamotver6\\views\\activitiesbienestar\\_filterform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformamotver6\\views\\activitiesbienestar\\_filterform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|solutionrelative:plataformamotver6\\views\\activitiesbienestar\\_filterform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\plataformamotver6\\controllers\\activitiesbienestarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformamotver6\\controllers\\activitiesbienestarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7AC320B-EA63-44BD-8FD0-6BA04F08A192}|plataformaMotVer6\\plataformaMotVer6.csproj|solutionrelative:plataformamotver6\\controllers\\activitiesbienestarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,30 +42,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TblUsuarios.cs",
-              "DocumentMoniker": "F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\plataformaMotVer6\\Models\\TblUsuarios.cs",
-              "RelativeDocumentMoniker": "plataformaMotVer6\\Models\\TblUsuarios.cs",
-              "ToolTip": "F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\plataformaMotVer6\\Models\\TblUsuarios.cs",
-              "RelativeToolTip": "plataformaMotVer6\\Models\\TblUsuarios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T02:36:58.02Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "TblUsuarios.cs",
+              "DocumentMoniker": "D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformaMotVer6\\Models\\TblUsuarios.cs",
+              "RelativeDocumentMoniker": "plataformaMotVer6\\Models\\TblUsuarios.cs",
+              "ToolTip": "D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformaMotVer6\\Models\\TblUsuarios.cs",
+              "RelativeToolTip": "plataformaMotVer6\\Models\\TblUsuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T02:36:58.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Web.config",
-              "DocumentMoniker": "F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\plataformaMotVer6\\Web.config",
+              "DocumentMoniker": "D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformaMotVer6\\Web.config",
               "RelativeDocumentMoniker": "plataformaMotVer6\\Web.config",
-              "ToolTip": "F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\plataformaMotVer6\\Web.config",
+              "ToolTip": "D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformaMotVer6\\Web.config",
               "RelativeToolTip": "plataformaMotVer6\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-08-25T00:55:50.389Z",
               "EditorCaption": ""
@@ -74,22 +77,21 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "_ActivityInsertForm.cshtml",
-              "DocumentMoniker": "F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\plataformaMotVer6\\Views\\ActivitiesBienestar\\_ActivityInsertForm.cshtml",
+              "DocumentMoniker": "D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformaMotVer6\\Views\\ActivitiesBienestar\\_ActivityInsertForm.cshtml",
               "RelativeDocumentMoniker": "plataformaMotVer6\\Views\\ActivitiesBienestar\\_ActivityInsertForm.cshtml",
-              "ToolTip": "F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\plataformaMotVer6\\Views\\ActivitiesBienestar\\_ActivityInsertForm.cshtml",
+              "ToolTip": "D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformaMotVer6\\Views\\ActivitiesBienestar\\_ActivityInsertForm.cshtml",
               "RelativeToolTip": "plataformaMotVer6\\Views\\ActivitiesBienestar\\_ActivityInsertForm.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-20T17:26:51.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T17:26:51.874Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "_ActivityEditForm.cshtml",
-              "DocumentMoniker": "F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\plataformaMotVer6\\Views\\ActivitiesBienestar\\_ActivityEditForm.cshtml",
+              "DocumentMoniker": "D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformaMotVer6\\Views\\ActivitiesBienestar\\_ActivityEditForm.cshtml",
               "RelativeDocumentMoniker": "plataformaMotVer6\\Views\\ActivitiesBienestar\\_ActivityEditForm.cshtml",
-              "ToolTip": "F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\plataformaMotVer6\\Views\\ActivitiesBienestar\\_ActivityEditForm.cshtml",
+              "ToolTip": "D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformaMotVer6\\Views\\ActivitiesBienestar\\_ActivityEditForm.cshtml",
               "RelativeToolTip": "plataformaMotVer6\\Views\\ActivitiesBienestar\\_ActivityEditForm.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -99,9 +101,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "TblActividadesViewModel.cs",
-              "DocumentMoniker": "F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\plataformaMotVer6\\Models\\ActivitiesViewModel\\TblActividadesViewModel.cs",
+              "DocumentMoniker": "D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformaMotVer6\\Models\\ActivitiesViewModel\\TblActividadesViewModel.cs",
               "RelativeDocumentMoniker": "plataformaMotVer6\\Models\\ActivitiesViewModel\\TblActividadesViewModel.cs",
-              "ToolTip": "F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\plataformaMotVer6\\Models\\ActivitiesViewModel\\TblActividadesViewModel.cs",
+              "ToolTip": "D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformaMotVer6\\Models\\ActivitiesViewModel\\TblActividadesViewModel.cs",
               "RelativeToolTip": "plataformaMotVer6\\Models\\ActivitiesViewModel\\TblActividadesViewModel.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,9 +113,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Activities.cshtml",
-              "DocumentMoniker": "F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\plataformaMotVer6\\Views\\ActivitiesBienestar\\Activities.cshtml",
+              "DocumentMoniker": "D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformaMotVer6\\Views\\ActivitiesBienestar\\Activities.cshtml",
               "RelativeDocumentMoniker": "plataformaMotVer6\\Views\\ActivitiesBienestar\\Activities.cshtml",
-              "ToolTip": "F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\plataformaMotVer6\\Views\\ActivitiesBienestar\\Activities.cshtml",
+              "ToolTip": "D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformaMotVer6\\Views\\ActivitiesBienestar\\Activities.cshtml",
               "RelativeToolTip": "plataformaMotVer6\\Views\\ActivitiesBienestar\\Activities.cshtml",
               "ViewState": "AgIAALoBAAAAAAAAAAAAAOUBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -123,9 +125,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "_FilterForm.cshtml",
-              "DocumentMoniker": "F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\plataformaMotVer6\\Views\\ActivitiesBienestar\\_FilterForm.cshtml",
+              "DocumentMoniker": "D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformaMotVer6\\Views\\ActivitiesBienestar\\_FilterForm.cshtml",
               "RelativeDocumentMoniker": "plataformaMotVer6\\Views\\ActivitiesBienestar\\_FilterForm.cshtml",
-              "ToolTip": "F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\plataformaMotVer6\\Views\\ActivitiesBienestar\\_FilterForm.cshtml",
+              "ToolTip": "D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformaMotVer6\\Views\\ActivitiesBienestar\\_FilterForm.cshtml",
               "RelativeToolTip": "plataformaMotVer6\\Views\\ActivitiesBienestar\\_FilterForm.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -135,9 +137,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "ActivitiesBienestarController.cs",
-              "DocumentMoniker": "F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\plataformaMotVer6\\Controllers\\ActivitiesBienestarController.cs",
+              "DocumentMoniker": "D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformaMotVer6\\Controllers\\ActivitiesBienestarController.cs",
               "RelativeDocumentMoniker": "plataformaMotVer6\\Controllers\\ActivitiesBienestarController.cs",
-              "ToolTip": "F:\\Documents\\MEGAsync Downloads\\MOT COPY\\PlataformaMot7\\plataformaMotVer6\\Controllers\\ActivitiesBienestarController.cs",
+              "ToolTip": "D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformaMotVer6\\Controllers\\ActivitiesBienestarController.cs",
               "RelativeToolTip": "plataformaMotVer6\\Controllers\\ActivitiesBienestarController.cs",
               "ViewState": "AgIAAGAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
