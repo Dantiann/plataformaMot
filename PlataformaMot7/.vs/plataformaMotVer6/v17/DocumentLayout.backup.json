@@ -42,8 +42,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformaMotVer6\\Web.config",
+              "RelativeDocumentMoniker": "plataformaMotVer6\\Web.config",
+              "ToolTip": "D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformaMotVer6\\Web.config",
+              "RelativeToolTip": "plataformaMotVer6\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-25T00:55:50.389Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -59,19 +72,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T02:36:58.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformaMotVer6\\Web.config",
-              "RelativeDocumentMoniker": "plataformaMotVer6\\Web.config",
-              "ToolTip": "D:\\2 DOCS\\ULocal\\Documentos\\GitHub\\plataformaMot\\PlataformaMot7\\plataformaMotVer6\\Web.config",
-              "RelativeToolTip": "plataformaMotVer6\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-08-25T00:55:50.389Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
